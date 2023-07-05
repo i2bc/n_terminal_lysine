@@ -6,10 +6,6 @@
 - Daniel Gautheret (<daniel.gautheret@u-psud.fr>)
 - Jean Lehmann (<rnalehmann03@gmail.com>)
 
-## Note about the third-party tools
-
-In order to increase the reproducibility of the computational analyses we worked with conda environements and yml files to create them are given. Otherwise, softwares emboss (version 6.0) and R (version 4.1.2, including dplyr and ggplot2 libraries) are needed.
-
 ## Scripts and computing environment configuration
 
 - aaFreqByPos.R: R script to create a graph
@@ -24,7 +20,7 @@ In order to increase the reproducibility of the computational analyses we worked
 
 ### species selection
 
-selection of **bacteria** and **archaea** species: species were selected when they had a Topt_average and an Assembly_or_asseccion values in the [TEMPURA DB](http://togodb.org/db/tempura) and corresponding cDNA files (*cdna_from_genomics files.fasta.gz) were downloaded from the ncbi ftp site.
+selection of **bacteria** and **archaea** species: species were selected when they have a Topt_average and an Assembly_or_asseccion values in the [TEMPURA DB](http://togodb.org/db/tempura) and corresponding cDNA files (*cdna_from_genomics files.fasta.gz) were downloaded from the ncbi ftp site.
 
 **eukaryota** selection: downloaded from ncbi assembly query with [eukaryotes[organism] AND “reference genome"[RefSeq Category]](https://www.ncbi.nlm.nih.gov/assembly/?term=eukaryotes%5borganism%5d+AND+%E2%80%9Creference+genome%22%5bRefSeq+Category%5d) added with green alga, african frog and fission yeast. 
 Downloaded cDNA files versions (*_cds_from_genomic.fna.gz) are:
@@ -35,8 +31,10 @@ GCA_000001215.4_Release_6_plus_ISO1_MT GCA_000001735.2_TAIR10.1 GCA_000002595.3_
 - download the [200617_TEMPURA.csv](http://togodb.org/release/200617_TEMPURA.csv) TEMPURA DB
 - create 3 tsv files that list selected archaea, bacteria and eukaryota: genbank idientifier in column 1 and species name in column 2 (see `species_Archaea.list`, `species_Bacteria.list` and `species_Eukaryota.list` files for the lists used in the article).
 
-## frequencies amino-acids table and graphes
+### note about the third-party tools
+In order to increase the reproducibility of the computational analyses we worked with conda environements and yml files to create them are given. Otherwise, softwares emboss (version 6.0) and R (version 4.1.2, including dplyr and ggplot2 libraries) are needed.
 
+## Get frequencies amino-acids table and graphes
 - run `n_terminal_lysine-main/compute.sh` to get the summary table => `*.allAA_Plong_geeceeCDS_Toptave_iep_sp.tsv`
 - run `n_terminal_lysine-main/prepare_graphs.sh` (and run the resulting file) to get graphes for each species => `Tmp/KRNHYIaa_*.pdf` and `Tmp/KRNHYIaa_*.png`
 
