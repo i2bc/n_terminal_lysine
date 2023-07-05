@@ -13,8 +13,7 @@ In order to increase the reproducibility of the computational analyses we worked
 ## Scripts and computing environment configuration
 
 - aaFreqByPos.R: R script to create a graph 
-- associate.sh: combines the measurements calculated for all species in a table (to run after compute.sh)
-- compute.sh: compute measurements for one species (isoelectric point, CG%, Plong, Pavg, and P2nd)
+- compute.sh: compute measurements and create summary table (isoelectric point, CG%, Plong, Pavg, and P2nd)
 - conda_env_Rbase_n_terminal_lysine.yml: recipe to create a conda environment and run R script
 - conda_env_compute_n_terminal_lysine.yml: recipe to create a conda environment and run shell script
 - get_nt.awk: get n fisrt nucleotides for each sequence of a multiple fasta file (used in compute.sh)
@@ -22,10 +21,85 @@ In order to increase the reproducibility of the computational analyses we worked
 
 ## Preparing data
 
-selection of bacteria and archaea species: species were selected when they had a Topt_average and an Assembly_or_asseccion values in the [TEMPURA DB](http://togodb.org/db/tempura) and corresponding cDNA files (*cdna_from_genomics files.fasta.gz) were downloaded from the ncbi ftp site.
+selection of **bacteria** and **archaea** species: species were selected when they had a Topt_average and an Assembly_or_asseccion values in the [TEMPURA DB](http://togodb.org/db/tempura) and corresponding cDNA files (*cdna_from_genomics files.fasta.gz) were downloaded from the ncbi ftp site.
 
-eukaryota selection: downloaded from ncbi assembly query with [eukaryotes[organism] AND “reference genome"[RefSeq Category]](https://www.ncbi.nlm.nih.gov/assembly/?term=eukaryotes%5borganism%5d+AND+%E2%80%9Creference+genome%22%5bRefSeq+Category%5d) added with green alga, african frog and fission yeast. 
+download the [csv](http://togodb.org/release/200617_TEMPURA.csv) TEMPURA DB
+
+**eukaryota** selection: downloaded from ncbi assembly query with [eukaryotes[organism] AND “reference genome"[RefSeq Category]](https://www.ncbi.nlm.nih.gov/assembly/?term=eukaryotes%5borganism%5d+AND+%E2%80%9Creference+genome%22%5bRefSeq+Category%5d) added with green alga, african frog and fission yeast. 
 Downloaded cDNA files versions (*_cds_from_genomic.fna.gz) are:
 GCA_000001215.4_Release_6_plus_ISO1_MT GCA_000001735.2_TAIR10.1 GCA_000002595.3_Chlamydomonas_reinhardtii_v5.5 GCA_000002945.2_ASM294v2_SchPom GCA_000002985.3_WBcel235 GCA_000146045.2_R64SacCer GCF_000001405.40_GRCh38.p14 GCF_000001635.27_GRCm39 GCF_000002035.6_GRCz11 GCF_017654675.1_J_2021 GCF_018350175.1_Fca126
+
+## Test example
+download scripts:
+```
+unzip n_terminal_lysine-main.zip ;
+```
+which create: 
+```
+.
+└── n_terminal_lysine-main
+    ├── aaFreqByPos.R
+    ├── compute.sh
+    ├── get_nt.awk
+    ├── README.md
+    └── transpose.awk
+```
+download data (TEMPURA DB, 2 bacteria, 2 archaea):
+```
+wget http://togodb.org/release/200617_TEMPURA.csv
+mkdir -p ncbi_gca ; cd ncbi_gca ;
+wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/009/965/GCA_000009965.1_ASM996v1/GCA_000009965.1_ASM996v1_cds_from_genomic.fna.gz ;
+wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/007/085/GCA_000007085.1_ASM708v1/GCA_000007085.1_ASM708v1_cds_from_genomic.fna.gz ;
+wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/007/305/GCA_000007305.1_ASM730v1/GCA_000007305.1_ASM730v1_cds_from_genomic.fna.gz ;
+wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/010/305/GCA_000010305.1_ASM1030v1/GCA_000010305.1_ASM1030v1_cds_from_genomic.fna.gz ;
+
+cd .. ;
+echo GCA_000007085.1$'\n'GCA_000010305.1 > bact.list ; echo GCA_000006175.2$'\n'GCA_000006175.2 > arch.list ;
+```
+which create: 
+```
+.
+├── 200617_TEMPURA.csv
+├── arch.list
+├── bact.list
+├── ncbi_gca
+│   ├── GCA_000002945.2_ASM294v2_SchPom_cds_from_genomic.fna.gz
+│   ├── GCA_000006175.2_ASM617v2_cds_from_genomic.fna.gz
+│   ├── GCA_000007085.1_ASM708v1_cds_from_genomic.fna.gz
+│   ├── GCA_000009965.1_ASM996v1_cds_from_genomic.fna.gz
+│   ├── GCA_000010305.1_ASM1030v1_cds_from_genomic.fna.gz
+│   └── GCA_000146045.2_R64SacCer_cds_from_genomic.fna.gz
+└── n_term...
+```
+compute measurements:
+for eukaryota, end with 0 in place of 11 (genetic code, -table option of emboss::transeq tools)
+```
+for sp in arch bact ; do bash compute.sh ${sp}.list n_terminal_lysine-main 11 ; done
+```
+
+which create: 
+```
+.
+├── ...
+├── arch.list.geeceeCDS.tsv
+├── arch.list.iepCDS.tsv
+├── arch.list.P2nd_Pavg_Plong.tsv
+├── arch.list.tempura_Topt_ave.tsv
+├── bact.list.geeceeCDS.tsv
+├── bact...
+└── Res
+    ├── GCA_000007085.1_60nt_cfg.fna
+    ├── GCA_000007085.1_60nt.faa
+    ├── GCA_000007085.1_allAA.csv
+    ├── GCA_000007085.1.geecee
+    ├── GCA_000007085.1.iep
+    ├── GCA_000007085.1.prophecy
+    ├── GCA_000007085.1.transeq
+    ├── GCA_000010305.1_60nt_cfg.fna
+    ├── ...
+    └── GCA_000010305.1.transeq
+```
+create graphs:
+
 
 ### Repository architecture 
