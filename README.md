@@ -19,13 +19,11 @@ Otherwise, install emboss (version 6.0) and Rbase (version 4.1.2) softwares.
 - conda_env_compute_n_terminal_lysine.yml: file to create a conda environment to run shell scripts
 - get_nt.awk: get n fisrt nucleotides for each sequence of a multiple fasta file (used in compute.sh)
 - transpose.awk: matrix transposition (used in compute.sh)
-- GCA_wget.sh: shell script for donwloading archea and bacteria cds_from_genomic.fna.gz sequence files
 
 ## Preparing data
 
-selection of bacteria and archaea: species were selected when they had a Topt_avarage value in the [TEMPURA DB](http://togodb.org/db/tempura)
-and downloaded with their GCA_ identifier (see GCA_wget.sh script)
+selection of bacteria and archaea species: species were selected when they had a Topt_average and an Assembly_or_asseccion values in the [TEMPURA DB](http://togodb.org/db/tempura) and corresponding cDNA files (*cdna_from_genomics files.fasta.gz) were downloaded from the ncbi ftp site
 
-eukaryota selection: downloaded from ncbi assembly query with [eukaryotes[organism] AND “reference genome"[RefSeq Category]](https://www.ncbi.nlm.nih.gov/assembly/?term=eukaryotes%5borganism%5d+AND+%E2%80%9Creference+genome%22%5bRefSeq+Category%5d)
+eukaryota selection: downloaded from ncbi assembly query with [eukaryotes[organism] AND “reference genome"[RefSeq Category]](https://www.ncbi.nlm.nih.gov/assembly/?term=eukaryotes%5borganism%5d+AND+%E2%80%9Creference+genome%22%5bRefSeq+Category%5d). ?? and ?? were added to this selection.
 
 ### Repository architecture 
