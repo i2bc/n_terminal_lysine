@@ -57,13 +57,14 @@ download data (TEMPURA DB, 2 bacteria, 2 archaea):
 ```
 wget http://togodb.org/release/200617_TEMPURA.csv
 mkdir -p ncbi_gca ; cd ncbi_gca ;
-wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/009/965/GCA_000009965.1_ASM996v1/GCA_000009965.1_ASM996v1_cds_from_genomic.fna.gz ;
-wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/007/085/GCA_000007085.1_ASM708v1/GCA_000007085.1_ASM708v1_cds_from_genomic.fna.gz ;
 wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/007/305/GCA_000007305.1_ASM730v1/GCA_000007305.1_ASM730v1_cds_from_genomic.fna.gz ;
+wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/007/085/GCA_000007085.1_ASM708v1/GCA_000007085.1_ASM708v1_cds_from_genomic.fna.gz ;
+wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/009/965/GCA_000009965.1_ASM996v1/GCA_000009965.1_ASM996v1_cds_from_genomic.fna.gz ;
 wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/010/305/GCA_000010305.1_ASM1030v1/GCA_000010305.1_ASM1030v1_cds_from_genomic.fna.gz ;
 
 cd .. ;
-echo GCA_000007085.1$'\n'GCA_000010305.1 > bact.list ; echo GCA_000006175.2$'\n'GCA_000006175.2 > arch.list ;
+echo GCA_000007085.1$'\t'Caldanaerobacter subterraneus subsp. tengcongensis MB4$'\n'GCA_000010305.1$'\t'Gemmatimonas aurantiaca T-27 > bact.list ;
+echo GCA_000007305.2$'\t'Pyrococcus furiosus DSM 3638$'\n'GCA_000009965.2$'\t'Thermococcus kodakarensis KOD1 > arch.list ;
 ```
 which create: 
 ```
@@ -73,7 +74,7 @@ which create:
 ├── bact.list
 ├── ncbi_gca
 │   ├── GCA_000002945.2_ASM294v2_SchPom_cds_from_genomic.fna.gz
-│   ├── GCA_000006175.2_ASM617v2_cds_from_genomic.fna.gz
+│   ├── GCA_000007305.1_ASM730v1_cds_from_genomic.fna.gz
 │   ├── GCA_000007085.1_ASM708v1_cds_from_genomic.fna.gz
 │   ├── GCA_000009965.1_ASM996v1_cds_from_genomic.fna.gz
 │   ├── GCA_000010305.1_ASM1030v1_cds_from_genomic.fna.gz
