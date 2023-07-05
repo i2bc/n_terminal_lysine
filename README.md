@@ -32,7 +32,7 @@ GCA_000001215.4_Release_6_plus_ISO1_MT GCA_000001735.2_TAIR10.1 GCA_000002595.3_
 
 ### resources files
 
-- download the [csv](http://togodb.org/release/200617_TEMPURA.csv) TEMPURA DB
+- download the [200617_TEMPURA.csv](http://togodb.org/release/200617_TEMPURA.csv) TEMPURA DB
 - create 3 tsv files that list selected archaea, bacteria and eukaryota: genbank idientifier in column 1 and species name in column 2 (see `species_Archaea.list`, `species_Bacteria.list` and `species_Eukaryota.list` files for the lists used in the article).
 
 ## frequencies amino-acids table and graphes
