@@ -8,7 +8,7 @@
 
 ## Note about the third-party tools
 
-In order to increase the reproducibility of the computational analyses we worked with conda environements and yml files to create them are given. Oherwise, softwares emboss (version 6.0) and R (version 4.1.2, including dplyr and ggplot2 libraries) are needed.
+In order to increase the reproducibility of the computational analyses we worked with conda environements and yml files to create them are given. Otherwise, softwares emboss (version 6.0) and R (version 4.1.2, including dplyr and ggplot2 libraries) are needed.
 
 ## Scripts and computing environment configuration
 
