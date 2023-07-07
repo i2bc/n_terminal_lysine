@@ -6,8 +6,13 @@
 - Daniel Gautheret (<daniel.gautheret@u-psud.fr>)
 - Jean Lehmann (<rnalehmann03@gmail.com>)
 
-## Scripts and computing environment configuration
+# preparing environment and data
 
+## configuring computing environement
+
+## script and configuration files
+Clone (git clone git@github.com:i2bc/n_terminal_lysine.git) or donwload this archive. 
+In a `n_terminal_lysine` repoository, you may have this files:
 - aaFreqByPos.R: R script to create a graph
 - compute.sh: compute measurements and create summary table (isoelectric point, CG%, Plong, Pavg, and P2nd)
 - conda_env_Rbase_n_terminal_lysine.yml: recipe to create a conda environment and run R script
@@ -16,7 +21,10 @@
 - prepare_graphs.sh: prepare a shell file to create graph 
 - transpose.awk: matrix transposition (used in compute.sh)
 
-## Preparing data
+### note about the third-party tools
+In order to increase the reproducibility of the computational analyses we worked with conda environements and yml files to create them are given (`conda_env_*_n_terminal_lysine.yml`). Otherwise, softwares emboss (version 6.0) and R (version 4.1.2, including dplyr and ggplot2 libraries) are needed.
+
+## data
 
 ### species selection
 
@@ -26,19 +34,18 @@ selection of **bacteria** and **archaea** species: species were selected when th
 Downloaded cDNA files versions (*_cds_from_genomic.fna.gz) are:
 GCA_000001215.4_Release_6_plus_ISO1_MT GCA_000001735.2_TAIR10.1 GCA_000002595.3_Chlamydomonas_reinhardtii_v5.5 GCA_000002945.2_ASM294v2_SchPom GCA_000002985.3_WBcel235 GCA_000146045.2_R64SacCer GCF_000001405.40_GRCh38.p14 GCF_000001635.27_GRCm39 GCF_000002035.6_GRCz11 GCF_017654675.1_J_2021 GCF_018350175.1_Fca126
 
-### resources files
+### other needed resources files
 
 - download the [200617_TEMPURA.csv](http://togodb.org/release/200617_TEMPURA.csv) TEMPURA DB
 - create 3 tsv files that list selected archaea, bacteria and eukaryota: genbank idientifier in column 1 and species name in column 2 (see `species_Archaea.list`, `species_Bacteria.list` and `species_Eukaryota.list` files for the lists used in the article).
 
-### note about the third-party tools
-In order to increase the reproducibility of the computational analyses we worked with conda environements and yml files to create them are given. Otherwise, softwares emboss (version 6.0) and R (version 4.1.2, including dplyr and ggplot2 libraries) are needed.
+# runing and example
 
-## Get frequencies amino-acids table and graphes
+## get the frequencies amino-acids table and graphes
 - run `n_terminal_lysine-main/compute.sh` to get the summary table => `*.allAA_Plong_geeceeCDS_Toptave_iep_sp.tsv`
 - run `n_terminal_lysine-main/prepare_graphs.sh` (and run the resulting file) to get graphes for each species => `Tmp/KRNHYIaa_*.pdf` and `Tmp/KRNHYIaa_*.png`
 
-## Usage example
+## usage example with 2 species from the 3 domain of life
 download scripts:
 ```
 unzip n_terminal_lysine-main.zip ;
