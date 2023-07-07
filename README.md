@@ -10,9 +10,9 @@
 
 ## configuring computing environement
 
-## script and configuration files
+### script and configuration files
 Clone (git clone git@github.com:i2bc/n_terminal_lysine.git) or donwload this archive. 
-In a `n_terminal_lysine` repoository, you may have this files:
+In a `n_terminal_lysine` repoository, you may have:
 - aaFreqByPos.R: R script to create a graph
 - compute.sh: compute measurements and create summary table (isoelectric point, CG%, Plong, Pavg, and P2nd)
 - conda_env_Rbase_n_terminal_lysine.yml: recipe to create a conda environment and run R script
