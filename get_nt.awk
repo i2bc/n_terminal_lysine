@@ -1,3 +1,12 @@
+# extract the n first nucleotides of a fna sequences file
+#
+# change 1srt codon to ATG
+# exclude sequence tagged "pseudo"
+# exclude sequence with length < input size value
+#
+# eg. of command line:
+# awk -v size=60 -f get_nt.awk *.fna
+#
 BEGIN{
   new=0;
   tooShort=0
