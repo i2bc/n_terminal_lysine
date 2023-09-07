@@ -32,7 +32,18 @@ selection of **bacteria** and **archaea** species: species were selected when th
 
 **eukaryota** selection: downloaded from ncbi assembly query with [eukaryotes[organism] AND “reference genome"[RefSeq Category]](https://www.ncbi.nlm.nih.gov/assembly/?term=eukaryotes%5borganism%5d+AND+%E2%80%9Creference+genome%22%5bRefSeq+Category%5d) added with green alga, african frog and fission yeast. 
 Downloaded cDNA files versions (*_cds_from_genomic.fna.gz) are:
-GCA_000001215.4_Release_6_plus_ISO1_MT GCA_000001735.2_TAIR10.1 GCA_000002595.3_Chlamydomonas_reinhardtii_v5.5 GCA_000002945.2_ASM294v2_SchPom GCA_000002985.3_WBcel235 GCA_000146045.2_R64SacCer GCF_000001405.40_GRCh38.p14 GCF_000001635.27_GRCm39 GCF_000002035.6_GRCz11 GCF_017654675.1_J_2021 GCF_018350175.1_Fca126
+```
+GCA_000001215.4_Release_6_plus_ISO1_MT          # Drosophila melanogaster 6           # fruit fly
+GCA_000001735.2_TAIR10.1                        # Arabidopsis thaliana TAIR10         # thale cress
+GCA_000002595.3_Chlamydomonas_reinhardtii_v5.5  # Chlamydomonas reinhardtii v5.5      # green alga
+GCA_000002945.2_ASM294v2_SchPom                 # Schizosaccharomyces pombe ASM294v2  # fission yeast
+GCA_000002985.3_WBcel235                        # Caenorhabditis elegans cel235       # worm
+GCA_000146045.2_R64SacCer                       # Saccharomyces cerevisiae S288C      # baker's yeast
+GCF_000001405.40_GRCh38.p14                     # Homo sapiens GRCh38.p14             # human
+GCF_000001635.27_GRCm39                         # Mus musculus GRCm39                 # house mouse
+GCF_000002035.6_GRCz11                          # Danio rerio GRCz11                  # zebrafish
+GCF_017654675.1_J_2021                          # Xenopus laevis                      # African frog
+```
 
 ### other needed resources files
 
