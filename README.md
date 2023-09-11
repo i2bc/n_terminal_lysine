@@ -56,7 +56,7 @@ GCF_017654675.1_J_2021                          # Xenopus laevis                
 
 ## usage example with 2 species from the 3 domain of life
 go to the `n_terminal_lysine` repository.
-```
+
 download data (TEMPURA DB, 2 bacteria, 2 archaea, 2 eukaryota):
 ```
 wget http://togodb.org/release/200617_TEMPURA.csv
