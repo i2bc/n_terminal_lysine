@@ -51,8 +51,8 @@ GCF_017654675.1_J_2021                          # Xenopus laevis                
 # runing 
 
 ## get the frequencies amino-acids table and graphes
-- run `n_terminal_lysine-main/compute.sh` to get the summary table => `*.allAA_Plong_geeceeCDS_Toptave_iep_sp.tsv`
-- run `n_terminal_lysine-main/prepare_graphs.sh` (and run the resulting file, `prepare_graphs.sh`) to get graphes for each species => `Tmp/KRNHYIaa_*.pdf` and `Tmp/KRNHYIaa_*.png`
+- run `n_terminal_lysine/compute.sh` to get the summary table => `*.allAA_Plong_geeceeCDS_Toptave_iep_sp.tsv`
+- run `n_terminal_lysine/prepare_graphs.sh` (and run the resulting file, `prepare_graphs.sh`) to get graphes for each species => `Tmp/KRNHYIaa_*.pdf` and `Tmp/KRNHYIaa_*.png`
 
 ## usage example with 2 species from the 3 domain of life
 go to the `n_terminal_lysine` repository.
@@ -95,8 +95,8 @@ compute measurements:
 activate the conda environment: `conda activate emboss_ce`
 for eukaryota, end with 0 in place of 11 for archaea and bacteria (genetic code, `-table` option of the `emboss::transeq` tool)
 ```
-for sp in arch bact ; do bash compute.sh ${sp}.list n_terminal_lysine-main 11 ; done
-for sp in euka ; do bash compute.sh ${sp}.list n_terminal_lysine-main 0 ; done
+for sp in arch bact ; do bash compute.sh ${sp}.list ../n_terminal_lysine 11 ; done
+for sp in euka ; do bash compute.sh ${sp}.list ../n_terminal_lysine 0 ; done
 ```
 
 which generates: 
