@@ -11,7 +11,7 @@
 ## configuring computing environement
 
 ### script and configuration files
-Clone (git clone git@github.com:i2bc/n_terminal_lysine.git) or donwload this archive. 
+Clone (`git clone git@github.com:i2bc/n_terminal_lysine`) or donwload this archive. 
 In a `n_terminal_lysine` repoository, you may have:
 - aaFreqByPos.R: R script to create a graph
 - compute.sh: compute measurements and create summary table (isoelectric point, CG%, Plong, Pavg, and P2nd)
@@ -20,9 +20,11 @@ In a `n_terminal_lysine` repoository, you may have:
 - get_nt.awk: get n fisrt nucleotides for each sequence of a multiple fasta file (used in compute.sh)
 - prepare_graphs.sh: prepare a shell file to create graph 
 - transpose.awk: matrix transposition (used in compute.sh)
+- README.md (this file)
+- species_Archaea.list, species_Bacteria.list, species_Eukaryotes.list (lists of cdna_sequences used in the article)
 
 ### note about the third-party tools
-In order to increase the reproducibility of the computational analyses we worked with conda environements and yml files to create them are given (`conda_env_*_n_terminal_lysine.yml`). Otherwise, softwares emboss (version 6.0) and R (version 4.1.2, including dplyr and ggplot2 libraries) are needed.
+In order to increase the reproducibility of the computational analyses we worked with conda environements (see the yml files to create them, `conda_env_*_n_terminal_lysine.yml`). Otherwise, softwares emboss (version 6.0) and R (version 4.1.2, including dplyr and ggplot2 libraries) are needed.
 
 ## data
 
