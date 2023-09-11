@@ -72,7 +72,7 @@ cd .. ;
 create 3 files that lists selected archaea, bacteria and eukaryota species with genbank idientifier in column 1 and species name in column 2 (see `species_Archaea.list`, `species_Bacteria.list` and `species_Eukaryota.list` files for the lists used in the article).
 ```
 echo GCA_000007085.1$'\t'Caldanaerobacter subterraneus subsp. tengcongensis MB4$'\n'GCA_000010305.1$'\t'Gemmatimonas aurantiaca T-27 > bact.list ;
-echo GCA_000007305.2$'\t'Pyrococcus furiosus DSM 3638$'\n'GCA_000009965.2$'\t'Thermococcus kodakarensis KOD1 > arch.list ;
+echo GCA_000007305.1$'\t'Pyrococcus furiosus DSM 3638$'\n'GCA_000009965.1$'\t'Thermococcus kodakarensis KOD1 > arch.list ;
 echo GCA_000146045.2$'\t'Saccharomyces cerevisiae S288C R64$'\n'GCA_000002945.2$'\t'Schizosaccharomyces pombe > euka.list ;
 ```
 you may have: 
@@ -92,6 +92,7 @@ you may have:
 └── ...
 ```
 compute measurements:
+activate the conda environment: `conda activate emboss_ce`
 for eukaryota, end with 0 in place of 11 for archaea and bacteria (genetic code, `-table` option of the `emboss::transeq` tool)
 ```
 for sp in arch bact ; do bash compute.sh ${sp}.list n_terminal_lysine-main 11 ; done
