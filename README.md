@@ -59,19 +59,7 @@ GCF_017654675.1_J_2021                          # Xenopus laevis                
 - run `n_terminal_lysine-main/prepare_graphs.sh` (and run the resulting file, `prepare_graphs.sh`) to get graphes for each species => `Tmp/KRNHYIaa_*.pdf` and `Tmp/KRNHYIaa_*.png`
 
 ## usage example with 2 species from the 3 domain of life
-download scripts: git clone or 
-```
-unzip n_terminal_lysine-main.zip ;
-```
-which creates: 
-```
-.
-└── n_terminal_lysine-main
-    ├── aaFreqByPos.R
-    ├── compute.sh
-    ├── get_nt.awk
-    ├── README.md
-    └── transpose.awk
+Got to the `n_terminal_lysine` repository.
 ```
 download data (TEMPURA DB, 2 bacteria, 2 archaea, 2 eukaryota):
 ```
@@ -85,13 +73,13 @@ wget ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/146/045/GCA_000146045.2_R64/GCA_00
 wget ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/002/945/GCA_000002945.2_ASM294v2/GCA_000002945.2_ASM294v2_cds_from_genomic.fna.gz ;
 cd .. ;
 ```
-create lists:
+create 3 list files:
 ```
 echo GCA_000007085.1$'\t'Caldanaerobacter subterraneus subsp. tengcongensis MB4$'\n'GCA_000010305.1$'\t'Gemmatimonas aurantiaca T-27 > bact.list ;
 echo GCA_000007305.2$'\t'Pyrococcus furiosus DSM 3638$'\n'GCA_000009965.2$'\t'Thermococcus kodakarensis KOD1 > arch.list ;
 echo GCA_000146045.2$'\t'Saccharomyces cerevisiae S288C R64$'\n'GCA_000002945.2$'\t'Schizosaccharomyces pombe > euka.list ;
 ```
-which create: 
+you may have: 
 ```
 .
 ├── 200617_TEMPURA.csv
@@ -105,10 +93,10 @@ which create:
 │   ├── GCA_000009965.1_ASM996v1_cds_from_genomic.fna.gz
 │   ├── GCA_000010305.1_ASM1030v1_cds_from_genomic.fna.gz
 │   └── GCA_000146045.2_R64_cds_from_genomic.fna.gz
-└── n_term...
+└── ...
 ```
 compute measurements:
-for eukaryota, end with 0 in place of 11 (genetic code, -table option of emboss::transeq tools)
+for eukaryota, end with 0 in place of 11 for archaea and bacteria (genetic code, `-table` option of the `emboss::transeq` tool)
 ```
 for sp in arch bact ; do bash compute.sh ${sp}.list n_terminal_lysine-main 11 ; done
 for sp in euka ; do bash compute.sh ${sp}.list n_terminal_lysine-main 0 ; done
@@ -143,7 +131,7 @@ Graph creation for amino acids K, R, N, H, Y, and I frequencies on the first 20 
 `prepare_graphs.sh` writes a shell script `*KRNHYIaa_aaFreqByPos_graphes.sh` to create one graph by species (need Rscript):
 ```
 for i in arch bact euka ; do
-   bash prepare_graphs.sh $i.list n_terminal_lysine-main ;
+   bash prepare_graphs.sh $i.list n_terminal_lysine ;
    bash $i.list.KRNHYIaa_aaFreqByPos_graphes.sh ;
 done
 ```
