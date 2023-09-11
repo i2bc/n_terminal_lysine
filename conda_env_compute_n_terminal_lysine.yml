@@ -1,0 +1,6 @@
+name: emboss_ce
+channels:
+  - bioconda
+dependencies:
+  - emboss=6.6.0
+
