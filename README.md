@@ -12,7 +12,8 @@
 
 ### script and configuration files
 Clone (`git clone git@github.com:i2bc/n_terminal_lysine`) or donwload this archive. 
-In a `n_terminal_lysine` repoository, you may have:
+
+In a `n_terminal_lysine` repository, you may have:
 - aaFreqByPos.R: R script to create a graph
 - compute.sh: compute measurements and create summary table (isoelectric point, CG%, Plong, Pavg, and P2nd)
 - conda_env_Rbase_n_terminal_lysine.yml: recipe to create a conda environment and run R script
@@ -30,7 +31,7 @@ In order to increase the reproducibility of the computational analyses we worked
 
 ### species selection
 
-selection of **bacteria** and **archaea** species: species were selected when they have a Topt_average and an Assembly_or_asseccion values in the [TEMPURA DB](http://togodb.org/db/tempura) and corresponding cDNA files (*cdna_from_genomics files.fasta.gz) were downloaded from the ncbi ftp site.
+selection of **bacteria** and **archaea** species: species were selected when they have both a Topt_average and an Assembly_or_asseccion values in the [200617_TEMPURA.csv](http://togodb.org/release/200617_TEMPURA.csv) and a corresponding cDNA files (*cdna_from_genomics files.fasta.gz) to download from the ncbi ftp site.
 
 **eukaryota** selection: downloaded from ncbi assembly query with [eukaryotes[organism] AND “reference genome"[RefSeq Category]](https://www.ncbi.nlm.nih.gov/assembly/?term=eukaryotes%5borganism%5d+AND+%E2%80%9Creference+genome%22%5bRefSeq+Category%5d) added with green alga, african frog and fission yeast. 
 Downloaded cDNA files versions (*_cds_from_genomic.fna.gz) are:
@@ -47,12 +48,7 @@ GCF_000002035.6_GRCz11                          # Danio rerio GRCz11            
 GCF_017654675.1_J_2021                          # Xenopus laevis                      # African frog
 ```
 
-### other needed resources files
-
-- download the [200617_TEMPURA.csv](http://togodb.org/release/200617_TEMPURA.csv) TEMPURA DB
-- create 3 tsv files that list selected archaea, bacteria and eukaryota species with genbank idientifier in column 1 and species name in column 2 (see `species_Archaea.list`, `species_Bacteria.list` and `species_Eukaryota.list` files for the lists used in the article).
-
-# runing and example
+# runing 
 
 ## get the frequencies amino-acids table and graphes
 - run `n_terminal_lysine-main/compute.sh` to get the summary table => `*.allAA_Plong_geeceeCDS_Toptave_iep_sp.tsv`
@@ -73,7 +69,7 @@ wget ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/146/045/GCA_000146045.2_R64/GCA_00
 wget ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/002/945/GCA_000002945.2_ASM294v2/GCA_000002945.2_ASM294v2_cds_from_genomic.fna.gz ;
 cd .. ;
 ```
-create 3 list files:
+create 3 list files that list selected archaea, bacteria and eukaryota species with genbank idientifier in column 1 and species name in column 2 (see `species_Archaea.list`, `species_Bacteria.list` and `species_Eukaryota.list` files for the lists used in the article).
 ```
 echo GCA_000007085.1$'\t'Caldanaerobacter subterraneus subsp. tengcongensis MB4$'\n'GCA_000010305.1$'\t'Gemmatimonas aurantiaca T-27 > bact.list ;
 echo GCA_000007305.2$'\t'Pyrococcus furiosus DSM 3638$'\n'GCA_000009965.2$'\t'Thermococcus kodakarensis KOD1 > arch.list ;
