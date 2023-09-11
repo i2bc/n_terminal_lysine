@@ -48,13 +48,13 @@ GCF_017654675.1_J_2021                          # Xenopus laevis                
 ### other needed resources files
 
 - download the [200617_TEMPURA.csv](http://togodb.org/release/200617_TEMPURA.csv) TEMPURA DB
-- create 3 tsv files that list selected archaea, bacteria and eukaryota: genbank idientifier in column 1 and species name in column 2 (see `species_Archaea.list`, `species_Bacteria.list` and `species_Eukaryota.list` files for the lists used in the article).
+- create 3 tsv files that list selected archaea, bacteria and eukaryota species with genbank idientifier in column 1 and species name in column 2 (see `species_Archaea.list`, `species_Bacteria.list` and `species_Eukaryota.list` files for the lists used in the article).
 
 # runing and example
 
 ## get the frequencies amino-acids table and graphes
 - run `n_terminal_lysine-main/compute.sh` to get the summary table => `*.allAA_Plong_geeceeCDS_Toptave_iep_sp.tsv`
-- run `n_terminal_lysine-main/prepare_graphs.sh` (and run the resulting file) to get graphes for each species => `Tmp/KRNHYIaa_*.pdf` and `Tmp/KRNHYIaa_*.png`
+- run `n_terminal_lysine-main/prepare_graphs.sh` (and run the resulting file, `prepare_graphs.sh`) to get graphes for each species => `Tmp/KRNHYIaa_*.pdf` and `Tmp/KRNHYIaa_*.png`
 
 ## usage example with 2 species from the 3 domain of life
 download scripts:
@@ -105,7 +105,7 @@ for eukaryota, end with 0 in place of 11 (genetic code, -table option of emboss:
 for sp in arch bact ; do bash compute.sh ${sp}.list n_terminal_lysine-main 11 ; done
 ```
 
-which generate: 
+which generates: 
 ```
 .
 ├── ...
@@ -130,9 +130,12 @@ which generate:
     └── GCA_000010305.1.transeq
 ```
 Graph creation for amino acids K, R, N, H, Y, and I frequencies on the first 20 protein residus: 
-`prepare_graphs.sh` writes a shell script `*KRNHYIaa_aaFreqByPos_graphes.sh` that will create one graph by species (need Rscript):
+`prepare_graphs.sh` writes a shell script `*KRNHYIaa_aaFreqByPos_graphes.sh` to create one graph by species (need Rscript):
 ```
-for i in arch bact ; do bash prepare_graphs.sh $i.list n_terminal_lysine-main ; bash $i.list.KRNHYIaa_aaFreqByPos_graphes.sh ; done
+for i in arch bact ; do
+   bash prepare_graphs.sh $i.list n_terminal_lysine-main ;
+   bash $i.list.KRNHYIaa_aaFreqByPos_graphes.sh ;
+done
 ```
 which generate: 
 ```
