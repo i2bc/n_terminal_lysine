@@ -31,7 +31,7 @@ In order to increase the reproducibility of the computational analyses we worked
 
 ### species selection
 
-selection of **bacteria** and **archaea** species: species were selected when they have both a Topt_average and an Assembly_or_asseccion values in the [200617_TEMPURA.csv](http://togodb.org/release/200617_TEMPURA.csv) and a corresponding cDNA files (*cdna_from_genomics files.fasta.gz) to download from the ncbi ftp site.
+selection of **bacteria** and **archaea** species: species were selected when they have both a Topt_average and an Assembly_or_asseccion values in the [200617_TEMPURA.csv](http://togodb.org/release/200617_TEMPURA.csv) and a corresponding cDNA files (`*cdna_from_genomics files.fasta.gz`) to download from the ncbi ftp site.
 
 **eukaryota** selection: downloaded from ncbi assembly query with [eukaryotes[organism] AND “reference genome"[RefSeq Category]](https://www.ncbi.nlm.nih.gov/assembly/?term=eukaryotes%5borganism%5d+AND+%E2%80%9Creference+genome%22%5bRefSeq+Category%5d) added with green alga, african frog and fission yeast. 
 Downloaded cDNA files versions (*_cds_from_genomic.fna.gz) are:
@@ -55,7 +55,7 @@ GCF_017654675.1_J_2021                          # Xenopus laevis                
 - run `n_terminal_lysine-main/prepare_graphs.sh` (and run the resulting file, `prepare_graphs.sh`) to get graphes for each species => `Tmp/KRNHYIaa_*.pdf` and `Tmp/KRNHYIaa_*.png`
 
 ## usage example with 2 species from the 3 domain of life
-Got to the `n_terminal_lysine` repository.
+go to the `n_terminal_lysine` repository.
 ```
 download data (TEMPURA DB, 2 bacteria, 2 archaea, 2 eukaryota):
 ```
@@ -69,7 +69,7 @@ wget ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/146/045/GCA_000146045.2_R64/GCA_00
 wget ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/002/945/GCA_000002945.2_ASM294v2/GCA_000002945.2_ASM294v2_cds_from_genomic.fna.gz ;
 cd .. ;
 ```
-create 3 list files that list selected archaea, bacteria and eukaryota species with genbank idientifier in column 1 and species name in column 2 (see `species_Archaea.list`, `species_Bacteria.list` and `species_Eukaryota.list` files for the lists used in the article).
+create 3 files that lists selected archaea, bacteria and eukaryota species with genbank idientifier in column 1 and species name in column 2 (see `species_Archaea.list`, `species_Bacteria.list` and `species_Eukaryota.list` files for the lists used in the article).
 ```
 echo GCA_000007085.1$'\t'Caldanaerobacter subterraneus subsp. tengcongensis MB4$'\n'GCA_000010305.1$'\t'Gemmatimonas aurantiaca T-27 > bact.list ;
 echo GCA_000007305.2$'\t'Pyrococcus furiosus DSM 3638$'\n'GCA_000009965.2$'\t'Thermococcus kodakarensis KOD1 > arch.list ;
