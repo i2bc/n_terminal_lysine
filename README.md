@@ -99,13 +99,12 @@ which create:
 ├── bact.list
 ├── euka.list
 ├── ncbi_gca
-│   ├── GCA_000002945.2_ASM294v2_SchPom_cds_from_genomic.fna.gz
+│   ├── GCA_000002945.2_ASM294v2_cds_from_genomic.fna.gz
+|   ├── GCA_000007085.1_ASM708v1_cds_from_genomic.fna.gz
 │   ├── GCA_000007305.1_ASM730v1_cds_from_genomic.fna.gz
-│   ├── GCA_000007085.1_ASM708v1_cds_from_genomic.fna.gz
 │   ├── GCA_000009965.1_ASM996v1_cds_from_genomic.fna.gz
 │   ├── GCA_000010305.1_ASM1030v1_cds_from_genomic.fna.gz
-│   ├── GCA_000146045.2_R64SacCer_cds_from_genomic.fna.gz
-|   └── GCA_000002945.2_ASM294v2_cds_from_genomic.fna.gz
+│   └── GCA_000146045.2_R64_cds_from_genomic.fna.gz
 └── n_term...
 ```
 compute measurements:
