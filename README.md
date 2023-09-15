@@ -113,16 +113,16 @@ which generates:
     ├── arch.list.tempura_Topt_ave.tsv
     ├── bact.list.geeceeCDS.tsv
     ├── bact...
+    ├── GCA_000002945.2_60nt_cfg.fna
+    ├── GCA_000002945.2_60nt.faa
+    ├── GCA_000002945.2_allAA.csv
+    ├── GCA_000002945.2.geecee
+    ├── GCA_000002945.2.iep
+    ├── GCA_000002945.2.prophecy
+    ├── GCA_000002945.2.transeq
     ├── GCA_000007085.1_60nt_cfg.fna
-    ├── GCA_000007085.1_60nt.faa
-    ├── GCA_000007085.1_allAA.csv
-    ├── GCA_000007085.1.geecee
-    ├── GCA_000007085.1.iep
-    ├── GCA_000007085.1.prophecy
-    ├── GCA_000007085.1.transeq
-    ├── GCA_000010305.1_60nt_cfg.fna
     ├── ...
-    └── GCA_000010305.1.transeq
+    └── GCA_000146045.2.transeq
 ```
 Graph creation for amino acids K, R, N, H, Y, and I frequencies on the first 20 protein residus: 
 `prepare_graphs.sh` writes a shell script `*KRNHYIaa_aaFreqByPos_graphes.sh` to create one graph by species (need Rscript):
@@ -142,11 +142,11 @@ which generate:
 ├── ...
 └── Tmp
     ├── ...
-    ├── KRNHYIaa_GCA_000007085.1.csv
-    ├── KRNHYIaa_GCA_000007085.1.pdf
-    ├── KRNHYIaa_GCA_000007085.1.png
+    ├── KRNHYIaa_GCA_000002945.2.csv
+    ├── KRNHYIaa_GCA_000002945.2.pdf
+    ├── KRNHYIaa_GCA_000002945.2.png
     ├── ...
-    └── KRNHYIaa_GCA_000010305.1.png
+    └── KRNHYIaa_GCA_000146045.2.png
 ```
 Resulting graphs stand in the `Tmp` repository (`pdf` and `png` formats).
 
