@@ -69,7 +69,7 @@ wget ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/146/045/GCA_000146045.2_R64/GCA_00
 wget ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/002/945/GCA_000002945.2_ASM294v2/GCA_000002945.2_ASM294v2_cds_from_genomic.fna.gz ;
 cd .. ;
 ```
-create 3 files that lists selected archaea, bacteria and eukaryota species with genbank idientifier in column 1 and species name in column 2 (see `species_Archaea.list`, `species_Bacteria.list` and `species_Eukaryota.list` files for the lists used in the article).
+create 3 files that lists selected archaea, bacteria and eukaryota species with genbank identifier in column 1 and species name in column 2 (see `species_Archaea.list`, `species_Bacteria.list` and `species_Eukaryota.list` files for the lists used in the article).
 ```
 echo GCA_000007085.1$'\t'Caldanaerobacter subterraneus subsp. tengcongensis MB4$'\n'GCA_000010305.1$'\t'Gemmatimonas aurantiaca T-27 > bact.list ;
 echo GCA_000007305.1$'\t'Pyrococcus furiosus DSM 3638$'\n'GCA_000009965.1$'\t'Thermococcus kodakarensis KOD1 > arch.list ;
