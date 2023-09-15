@@ -1,5 +1,7 @@
 # Scripts and data files for "Encoded lysine(s) near the N terminal increase the yield of expressed proteins in bacteria"
 
+Scripts are under the CeCILL 2.1 licence which is a free software licence, explicitly compatible with the GNU GPL.
+
 **Contacts**
 
 - Claire Toffano-Nioche (<claire.toffano-nioche@u-psud.fr>)
