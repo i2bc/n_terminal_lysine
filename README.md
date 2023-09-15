@@ -6,11 +6,11 @@
 - Daniel Gautheret (<daniel.gautheret@u-psud.fr>)
 - Jean Lehmann (<rnalehmann03@gmail.com>)
 
-# preparing environment and data
+# Preparing environment and data
 
-## configuring computing environement
+## Configuring computing environement
 
-### script and configuration files
+### Script and configuration files
 Clone (`git clone git@github.com:i2bc/n_terminal_lysine`) or donwload this archive. 
 
 In a `n_terminal_lysine` repository, you may have:
@@ -25,12 +25,16 @@ In a `n_terminal_lysine` repository, you may have:
 - README.md (this file)
 - species_Archaea.list, species_Bacteria.list, species_Eukaryotes.list (lists of cdna_sequences used in the article)
 
-### note about the third-party tools
-In order to increase the reproducibility of the computational analyses we worked with conda environements (see the yml files to create them, `conda_env_*_n_terminal_lysine.yml`). Otherwise, softwares emboss (version 6.0) and R (version 4.1.2, including dplyr and ggplot2 libraries) are needed.
+### Note about the third-party tools
+In order to increase the reproducibility of the computational analyses we worked with conda environements (see the yml files to create them, `conda_env_*_n_terminal_lysine.yml`). Otherwise, softwares emboss (version 6.0) and R (version 4.3.1, including dplyr and ggplot2 libraries) are needed.
 
-## data
+## Data
 
-### species selection
+### Optimal growth temperature
+
+We download the [200617_TEMPURA.csv](http://togodb.org/release/200617_TEMPURA.csv), a table containing optimal growth temperature for some archaea and bacteria species.
+
+### Species selection
 
 selection of **bacteria** and **archaea** species: species were selected when they have both a Topt_average and an Assembly_or_asseccion values in the [200617_TEMPURA.csv](http://togodb.org/release/200617_TEMPURA.csv) and a corresponding cDNA files (`*cdna_from_genomics files.fasta.gz`) to download from the ncbi ftp site.
 
