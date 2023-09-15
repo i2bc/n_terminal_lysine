@@ -1,0 +1,9 @@
+name: Rgraph_n_terminal_lysine
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - r-base=4.3.1
+  - r-tidyverse #=2.0.0
+  - r-ggplot2 #=3.4.3
+
