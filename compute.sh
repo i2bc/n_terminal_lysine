@@ -3,10 +3,10 @@
 # for each *_cds_from_genomic.fna.gz listed in input file (one * by line) 
 #
 # run with:
-#    compute.sh bact.list n_terminal_lysine-main 11
+#    compute.sh bact.list n_terminal_lysine 11
 # where:
 #    bact.list lists all * stored in ncbi_gca/*_cds_from_genomic.fna.gz 
-#    n_terminal_lysine-main give acces to the code get_nt.awk
+#    n_terminal_lysine give acces to the code get_nt.awk
 #    11 stands for Bacteria or Archaea, to replace by 0 for Eukaryota
 #
 # temporary files will be in Tmp/ 
