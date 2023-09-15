@@ -55,6 +55,16 @@ GCF_017654675.1_J_2021                          # Xenopus laevis                
 - run `n_terminal_lysine/compute.sh` to get the summary table => `*.allAA_Plong_geeceeCDS_Toptave_iep_sp.tsv`
 - run `n_terminal_lysine/prepare_graphs.sh` (and run the resulting file) to get graphes for each species => `Tmp/KRNHYIaa_*.pdf` and `Tmp/KRNHYIaa_*.png`
 
+A `*.allAA_Plong_geeceeCDS_Toptave_iep_sp.tsv` table contains 83 columns: 
+
+* GCA_ID: the ncbi GCA identifier
+* X_P2nd, X_Pavg, X_Plong: 78 values for the 3 measurements to characterize a peak for each letter of the alphabet standing for aa
+* geeceeCDS: mean of the GC% computed on the CDS aa sequences
+* tempura_Topt_ave: optimal growth temperature extracted from the TEMPURA database when available
+* iepCDS: mean of the iso-electric points computed on the CDS aa sequences
+* species_name: name of the species
+
+
 ## A usage example with 2 species from the 3 domain of life
 Go to the `n_terminal_lysine` repository.
 
@@ -132,16 +142,6 @@ which generates:
     └── GCA_000146045.2.transeq
 ```
 The `*.allAA_Plong_geeceeCDS_Toptave_iep_sp.tsv` are the resulting tables.
-Each table contains 83 columns: 
-
----
-GCA_ID: the ncbi GCA identifier
-X_P2nd, X_Pavg, X_Plong: 78 values for the 3 measurements to characterize a peak for each letter of the alphabet standing for aa
-geeceeCDS: mean of the GC% computed on the CDS aa sequences
-tempura_Topt_ave: optimal growth temperature extracted from the TEMPURA database when available
-iepCDS: mean of the iso-electric points computed on the CDS aa sequences
-species_name: name of the species
----
 
 ### Graphs
 
