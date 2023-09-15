@@ -51,11 +51,13 @@ GCF_017654675.1_J_2021                          # Xenopus laevis                
 
 # Runing 
 
-## How to get the frequencies amino-acids table and graphes
-- run `n_terminal_lysine/compute.sh` to get the summary table => `*.allAA_Plong_geeceeCDS_Toptave_iep_sp.tsv`
-- run `n_terminal_lysine/prepare_graphs.sh` (and run the resulting file) to get graphes for each species => `Tmp/KRNHYIaa_*.pdf` and `Tmp/KRNHYIaa_*.png`
+Run first the `compute.sh` script to get a summary table, the `prepare_graphs.sh` script to create a shell script adapted to your data, and next this last shell script to obtains one frequencies amino-acids graph by spacies.
 
-A `*.allAA_Plong_geeceeCDS_Toptave_iep_sp.tsv` table contains 83 columns: 
+## Get the frequencies amino-acids table
+
+Run `n_terminal_lysine/compute.sh` to get a summary table, `*.allAA_Plong_geeceeCDS_Toptave_iep_sp.tsv`
+
+This table contains 83 columns: 
 
 * GCA_ID: the ncbi GCA identifier
 * X_P2nd, X_Pavg, X_Plong: 78 values for the 3 measurements to characterize a peak for each letter of the alphabet standing for aa
@@ -64,6 +66,9 @@ A `*.allAA_Plong_geeceeCDS_Toptave_iep_sp.tsv` table contains 83 columns:
 * iepCDS: mean of the iso-electric points computed on the CDS aa sequences
 * species_name: name of the species
 
+## Get the frequencies amino-acids graphes
+
+Run `n_terminal_lysine/prepare_graphs.sh` (and run the resulting file, `*KRNHYIaa_aaFreqByPos_graphes.sh`) to get graphes (`Tmp/KRNHYIaa_*.pdf` and `Tmp/KRNHYIaa_*.png`) for each species with the K, R, N, H, Y, and I aa. `KRNHYIaa_GCA_000146045.2.pdf` is an example for the the Saccharomyces cerevisiae S288C R64 strain.
 
 ## A usage example with 2 species from the 3 domain of life
 Go to the `n_terminal_lysine` repository.
