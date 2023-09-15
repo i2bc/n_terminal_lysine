@@ -14,6 +14,7 @@
 Clone (`git clone git@github.com:i2bc/n_terminal_lysine`) or donwload this archive. 
 
 In a `n_terminal_lysine` repository, you may have:
+- KRNHYIaa_GCA_000146045.2.pdf : the graph of some aa frequencies by position for Saccharomyces cerevisiae S288C R64 strain
 - aaFreqByPos.R: R script to create a graph
 - compute.sh: compute measurements and create summary table (isoelectric point, CG%, Plong, Pavg, and P2nd)
 - conda_env_Rbase_n_terminal_lysine.yml: recipe to create a conda environment and run R script
@@ -149,4 +150,4 @@ which generate:
     └── KRNHYIaa_GCA_000146045.2.png
 ```
 Resulting graphs stand in the `Tmp` repository (`pdf` and `png` formats).
-
+The graph for the Saccharomyces cerevisiae S288C R64 strain, `KRNHYIaa_GCA_000146045.2.pdf`, is supplied as an example of the correct operation of the codes.
