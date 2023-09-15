@@ -129,7 +129,7 @@ Graph creation for amino acids K, R, N, H, Y, and I frequencies on the first 20 
 `prepare_graphs.sh` writes a shell script `*KRNHYIaa_aaFreqByPos_graphes.sh` to create one graph by species (need Rscript):
 ```
 for i in arch bact euka ; do
-   bash prepare_graphs.sh $i.list n_terminal_lysine ;
+   bash prepare_graphs.sh $i.list ../n_terminal_lysine ;
    bash $i.list.KRNHYIaa_aaFreqByPos_graphes.sh ;
 done
 ```
