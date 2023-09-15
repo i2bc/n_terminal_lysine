@@ -49,16 +49,16 @@ GCF_000002035.6_GRCz11                          # Danio rerio GRCz11            
 GCF_017654675.1_J_2021                          # Xenopus laevis                      # African frog
 ```
 
-# runing 
+# Runing 
 
-## get the frequencies amino-acids table and graphes
+## How to get the frequencies amino-acids table and graphes
 - run `n_terminal_lysine/compute.sh` to get the summary table => `*.allAA_Plong_geeceeCDS_Toptave_iep_sp.tsv`
-- run `n_terminal_lysine/prepare_graphs.sh` (and run the resulting file, `prepare_graphs.sh`) to get graphes for each species => `Tmp/KRNHYIaa_*.pdf` and `Tmp/KRNHYIaa_*.png`
+- run `n_terminal_lysine/prepare_graphs.sh` (and run the resulting file) to get graphes for each species => `Tmp/KRNHYIaa_*.pdf` and `Tmp/KRNHYIaa_*.png`
 
-## usage example with 2 species from the 3 domain of life
-go to the `n_terminal_lysine` repository.
+## A usage example with 2 species from the 3 domain of life
+Go to the `n_terminal_lysine` repository.
 
-download data (TEMPURA DB, 2 bacteria, 2 archaea, 2 eukaryota):
+Download data (TEMPURA DB, 2 bacteria, 2 archaea, 2 eukaryota):
 ```
 wget http://togodb.org/release/200617_TEMPURA.csv
 mkdir -p ncbi_gca ; cd ncbi_gca ;
@@ -70,13 +70,13 @@ wget ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/146/045/GCA_000146045.2_R64/GCA_00
 wget ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/002/945/GCA_000002945.2_ASM294v2/GCA_000002945.2_ASM294v2_cds_from_genomic.fna.gz ;
 cd .. ;
 ```
-create 3 files that lists selected archaea, bacteria and eukaryota species with genbank identifier in column 1 and species name in column 2 (see `species_Archaea.list`, `species_Bacteria.list` and `species_Eukaryota.list` files for the lists used in the article).
+Create 3 files that lists selected archaea, bacteria and eukaryota species with genbank identifier in column 1 and species name in column 2 (see `species_Archaea.list`, `species_Bacteria.list` and `species_Eukaryota.list` files for the lists used in the article).
 ```
 echo GCA_000007085.1$'\t'Caldanaerobacter subterraneus subsp. tengcongensis MB4$'\n'GCA_000010305.1$'\t'Gemmatimonas aurantiaca T-27 > bact.list ;
 echo GCA_000007305.1$'\t'Pyrococcus furiosus DSM 3638$'\n'GCA_000009965.1$'\t'Thermococcus kodakarensis KOD1 > arch.list ;
 echo GCA_000146045.2$'\t'Saccharomyces cerevisiae S288C R64$'\n'GCA_000002945.2$'\t'Schizosaccharomyces pombe > euka.list ;
 ```
-you may have: 
+You may have: 
 ```
 .
 ├── 200617_TEMPURA.csv
@@ -92,9 +92,11 @@ you may have:
 │   └── GCA_000146045.2_R64_cds_from_genomic.fna.gz
 └── ...
 ```
-compute measurements:
-activate the conda environment: `conda activate emboss_ce`
-for eukaryota, end with 0 in place of 11 for archaea and bacteria (genetic code, `-table` option of the `emboss::transeq` tool)
+Compute measurements:
+
+Activate the conda environment: `conda activate emboss_ce`
+
+For eukaryota, end with 0 in place of 11 for archaea and bacteria (genetic code, `-table` option of the `emboss::transeq` tool).
 ```
 for sp in arch bact ; do bash compute.sh ${sp}.list ../n_terminal_lysine 11 ; done
 for sp in euka ; do bash compute.sh ${sp}.list ../n_terminal_lysine 0 ; done
@@ -125,15 +127,18 @@ which generates:
     ├── ...
     └── GCA_000146045.2.transeq
 ```
-Graph creation for amino acids K, R, N, H, Y, and I frequencies on the first 20 protein residus: 
-`prepare_graphs.sh` writes a shell script `*KRNHYIaa_aaFreqByPos_graphes.sh` to create one graph by species (need Rscript):
+Create graphs for amino acids K, R, N, H, Y, and I frequencies on the first 20 protein residus: 
+
+Activate the conda environment: `conda activate Rgraph_n_terminal_lysine`
+
+The `prepare_graphs.sh` script prepares a shell script, `*KRNHYIaa_aaFreqByPos_graphes.sh`, for each list of species. And when it is run, it will create one graph for each species (need Rscript):
 ```
 for i in arch bact euka ; do
    bash prepare_graphs.sh $i.list ../n_terminal_lysine ;
    bash $i.list.KRNHYIaa_aaFreqByPos_graphes.sh ;
 done
 ```
-which generate: 
+which generates: 
 ```
 .
 ├── ...
