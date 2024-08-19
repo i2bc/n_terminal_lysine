@@ -20,7 +20,7 @@ rm Tmp/${1}.tempura_Topt_ave.tsv ;
 for SP in `cut -f1 $1` ; do 
    gunzip ncbi_gca/${SP}*_cds_from_genomic.fna.gz ;
    # prophecy:  
-   grep ">" -A3 ncbi_gca/${SP}*_cds_from_genomic.fna | grep -v "\-\-" | awk -v size=150 -f $2/get_nt.awk > Tmp/${SP}_150nt_cfg.fna ; 
+   grep ">" -A3 ncbi_gca/${SP}*_cds_from_genomic.fna | grep -v "\-\-" | awk -v size=150 -f $2/get_x_nt.awk > Tmp/${SP}_150nt_cfg.fna ; 
    transeq -sequence Tmp/${SP}_150nt_cfg.fna -table $3 -frame 1 -outseq Tmp/${SP}_150nt.faa ; 
    prophecy -sequence Tmp/${SP}_150nt.faa -type F -name mymatrix -threshold 75 -outfile Tmp/${SP}.prophecy ;
    echo {A..Z} | sed 's/ /;/g' > Tmp/${SP}_allAA.csv ; 
