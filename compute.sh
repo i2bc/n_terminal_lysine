@@ -20,11 +20,11 @@ rm Tmp/${1}.tempura_Topt_ave.tsv ;
 for SP in `cut -f1 $1` ; do 
    gunzip ncbi_gca/${SP}*_cds_from_genomic.fna.gz ;
    # prophecy:  
-   grep ">" -A3 ncbi_gca/${SP}*_cds_from_genomic.fna | grep -v "\-\-" | awk -v size=150 -f $2/get_x_nt.awk > Tmp/${SP}_150nt_cfg.fna ; 
+   awk -v size=150 -f $2/get_x_nt.awk ncbi_gca/${SP}*_cds_from_genomic.fna > Tmp/${SP}_150nt_cfg.fna ; 
    transeq -sequence Tmp/${SP}_150nt_cfg.fna -table $3 -frame 1 -outseq Tmp/${SP}_150nt.faa ; 
    prophecy -sequence Tmp/${SP}_150nt.faa -type F -name mymatrix -threshold 75 -outfile Tmp/${SP}.prophecy ;
    echo {A..Z} | sed 's/ /;/g' > Tmp/${SP}_allAA.csv ; 
-   tail -n +10 Tmp/${SP}.prophecy | awk '{sumByPos=0; for(i=1;i<=(NF-1);i++){sumByPos=sumByPos+$i};for(i=1;i<(NF-1);i++){printf("%1.4f;",$i*100/sumByPos)}; printf("%1.4f\n",$(NF-1)*100/sumByPos)}'>> Tmp/${SP}_allAA.csv ;
+   tail -n +10 Tmp/${SP}.prophecy | awk '{if(NR<=20){sumByPos=0; for(i=1;i<=(NF-1);i++){sumByPos=sumByPos+$i};for(i=1;i<(NF-1);i++){printf("%1.4f;",$i*100/sumByPos)}; printf("%1.4f\n",$(NF-1)*100/sumByPos)}}'>> Tmp/${SP}_allAA.csv ; # only 20 first positions
    # Lysine peak (P2nd, Pave, Plong):
    awk 'BEGIN{FS=";";OFS=";"}{if(NR==1){bottom=$0}else{print $0}}END{print bottom}' Tmp/${SP}_allAA.csv | awk -f ${2}/transpose.awk | awk -v sp=${SP} 'BEGIN{FS="\t";OFS="\t";print sp}{print $21,$2-(($3+$4)/2),($2+$3)-($4+$5),($2+$3+$4+$5+$6+$7+$8+$9+$10)-(9*(($11+$12+$13+$14+$15)/5))}' | awk 'BEGIN{ORS="\t"}{print}END{print "\n"}' | sed 's/^\t//g' >> Tmp/${1}.P2nd_Pavg_Plong.tsv ; 
    # GC% on CDS:
