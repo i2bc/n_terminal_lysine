@@ -163,7 +163,7 @@ Activate the conda environment: `conda activate Rgraph_n_terminal_lysine`
 The `prepare_graphs.sh` script prepares a shell script, `*KRNHYIaa_aaFreqByPos_graphes.sh`, for each list of species. And when it is run, it will create one graph for each species (need Rscript):
 ```
 for i in arch bact euka ; do
-   bash prepare_graphs.sh $i.list ../n_terminal_lysine ;
+   bash prepare_graphs.sh $i.list ../n_terminal_lysine 20 ;
    bash $i.list.KRNHYIaa_aaFreqByPos_graphes.sh ;
 done
 ```
