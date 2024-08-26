@@ -5,10 +5,10 @@
 # $2: acces to scripts repository
 #
 # command line eg.:
-# bash prepare_graphs.sh *.list n_terminal_lysine-main
+# bash prepare_graphs.sh *.list n_terminal_lysine-main numberOfAA
 #
 rm ${1}.KRNHYIaa_aaFreqByPos_graphes.sh
 for SP in `cut -f1 ${1} ` ; do
-   tail -n+10 Tmp/${SP}.prophecy | awk '{sumByPos=0; for(i=1;i<=NF;i++){sumByPos=sumByPos+$i}; for(i=1;i<=NF-1;i++){printf("%1.2f ",$i*100/sumByPos)}; printf("%1.2f\n",$NF*100/sumByPos)}'| awk 'BEGIN{print "K,R,N,H,Y,I";OFS=","}{print $11,$18,$14,$8,$25,$9}' > Tmp/KRNHYIaa_${SP}.csv ;
+   tail -n+10 Tmp/${SP}.prophecy | head -n ${3} | awk '{sumByPos=0; for(i=1;i<=NF;i++){sumByPos=sumByPos+$i}; for(i=1;i<=NF-1;i++){printf("%1.2f ",$i*100/sumByPos)}; printf("%1.2f\n",$NF*100/sumByPos)}'| awk 'BEGIN{print "K,R,N,H,Y,I";OFS=","}{print $11,$18,$14,$8,$25,$9}' > Tmp/KRNHYIaa_${SP}.csv ;
    awk -v sp=${SP} -v tools=${2} -F "\t" '{if($1==sp){print "Rscript "tools"/aaFreqByPos.R -i Tmp/KRNHYIaa_"sp".csv -s \""$2"\""}}' ${1} >> ${1}.KRNHYIaa_aaFreqByPos_graphes.sh ;
 done
