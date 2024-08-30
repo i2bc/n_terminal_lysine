@@ -2,10 +2,11 @@
 #
 # create shell to automatise graphs creation
 # $1: species list files (with column1 for ncbi identifier and column2 for species name)
-# $2: acces to scripts repository
+# $2: acces to script repository
+# $3: number of aa positions
 #
 # command line eg.:
-# bash prepare_graphs.sh *.list n_terminal_lysine-main numberOfAA
+# bash prepare_graphs.sh *.list n_terminal_lysine-main numberOfAA 20
 #
 rm ${1}.KRNHYIaa_aaFreqByPos_graphes.sh
 for SP in `cut -f1 ${1} ` ; do
