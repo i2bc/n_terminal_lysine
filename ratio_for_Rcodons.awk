@@ -17,20 +17,20 @@
 #
 {
   if(NR==1){
-       print($1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$1"/("$1"+"$2") "md"\t("$1"+"$2")/("$1"+"$2"+"$3"+"$4"+"$5"+"$6") "md) # AGA/(AGA+AGG)
+       print($1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$1"/("$1"+"$2") "md"\t("$1"+"$2")\t("$1"+"$2")/("$1"+"$2"+"$3"+"$4"+"$5"+"$6") "md"\t("$1"+"$2"+"$3"+"$4"+"$5"+"$6")") # AGA/(AGA+AGG)
      # print $1"\t"$2"\t"$3"\t"$4"\t"$5"\t"$6"\t("$1"+"$2")/("$3"+"$4"+"$5") "md"\t("$1"+"$2")/("$1"+"$2"+"$3"+"$4"+"$5"+"$6") "md # (AGA+AGG)/(CGA+CGC+CGG)
   }else{
      denominateurs2=$1+$2; # AGA/(AGA+AGG)
      # denominateurs3=$3+$4+$5; # (AGA+AGG)/(CGA+CGC+CGG)
      denominateurs6=$1+$2+$3+$4+$5+$6; #(AGA+AGG)/(AGA+AGG+CGA+CGC+CGG+CGT)
      if((denominateurs2<=md)&&(denominateurs6<=md)){
-        printf("%d\t%d\t%d\t%d\t%d\t%d\t%s\t%s\n",$1,$2,$3,$4,$5,$6,"NA","NA")
+        printf("%d\t%d\t%d\t%d\t%d\t%d\t%s\t%d\t%s\t%d\n",$1,$2,$3,$4,$5,$6,"NA",denominateurs2,"NA",denominateurs6)
      }else{
         if((denominateurs2<=md)&&(denominateurs6>md)){
-           printf("%d\t%d\t%d\t%d\t%d\t%d\t%s\t%.3f\n",$1,$2,$3,$4,$5,$6,"NA",($1+$2)/($1+$2+$3+$4+$5+$6) )
+           printf("%d\t%d\t%d\t%d\t%d\t%d\t%s\t%d\t%.3f\t%d\n",$1,$2,$3,$4,$5,$6,"NA",denominateurs2,($1+$2)/($1+$2+$3+$4+$5+$6),denominateurs6 )
         }else{
            # printf("%d\t%d\t%d\t%d\t%d\t%d\t%.3f\t%.3f\n",$1,$2,$3,$4,$5,$6,($1+$2)/($3+$4+$5),($1+$2)/($1+$2+$3+$4+$5+$6)) # (AGA+AGG)/(CGA+CGC+CGG)
-           printf("%d\t%d\t%d\t%d\t%d\t%d\t%.3f\t%.3f\n",$1,$2,$3,$4,$5,$6,($1)/($1+$2),($1+$2)/($1+$2+$3+$4+$5+$6) ) # AGA/(AGA+AGG)
+           printf("%d\t%d\t%d\t%d\t%d\t%d\t%.3f\t%d\t%.3f\t%d\n",$1,$2,$3,$4,$5,$6,($1)/($1+$2),denominateurs2,($1+$2)/($1+$2+$3+$4+$5+$6),denominateurs6 ) # AGA/(AGA+AGG)
         }
      }
   }

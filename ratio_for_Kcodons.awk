@@ -15,16 +15,16 @@
 #
 {
    if(NR==1){
-      print($1"\t"$2"\t"$1"/"$2" "md"\t"$1"/("$1"+"$2") "md)
+      print($1"\t"$2"\t"$1"/"$2"\t"$1"/("$1"+"$2") "md"\t("$1"+"$2")")
    }else{
       denominateur=$1+$2
       if(($2<=md)&&(denominateur<=md)){
-         printf("%d\t%d\tNA\tNA\n",$1,$2)
+         printf("%d\t%d\tNA\tNA\t%d\n",$1,$2,$1+$2)
       }else{
          if(($2<=md)&&(denominateur>md)){
-            printf("%d\t%d\tNA\t%.3f\n",$1,$2,$1/($1+$2))
+            printf("%d\t%d\tNA\t%.3f\t%d\n",$1,$2,$1/($1+$2),$1+$2)
          }else{
-            printf("%d\t%d\t%.3f\t%.3f\n",$1,$2,$1/$2,$1/($1+$2))
+            printf("%d\t%d\t%.3f\t%.3f\t%d\n",$1,$2,$1/$2,$1/($1+$2),$1+$2)
          }
       }
    }
