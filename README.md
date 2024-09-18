@@ -21,7 +21,7 @@ In a `n_terminal_lysine` repository, you may have:
 - compute.sh: compute measurements and create summary table (isoelectric point, CG%, Plong, Pavg, and P2nd)
 - conda_env_Rbase_n_terminal_lysine.yml: recipe to create a conda environment and run R script
 - conda_env_compute_n_terminal_lysine.yml: recipe to create a conda environment and run shell script
-- get_nt.awk: get n fisrt nucleotides for each sequence of a multiple fasta file (used in compute.sh)
+- get_x_nt.awk: get x fisrt nucleotides for each sequence of a multiple fasta file (used in compute.sh)
 - prepare_graphs.sh: prepare a shell file to create graph 
 - transpose.awk: matrix transposition (used in compute.sh)
 - README.md (this file)
