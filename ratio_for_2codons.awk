@@ -1,8 +1,11 @@
+# script of the https://github.com/i2bc/n_terminal_lysine deposit
+# compute codon ratio for one couple of codons
+#
 # input : 
 # codon frequencies, one position by line, eg.
 # AGA AGG
 #
-# output : AGA AGG AGA/(AGA+AGG)
+# output : AGA AGG AGA/AGG
 #
 # -v md=0 # minimal threshold for denominator
 #

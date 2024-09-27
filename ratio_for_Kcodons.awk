@@ -1,3 +1,6 @@
+# script of the https://github.com/i2bc/n_terminal_lysine deposit
+# compute 2 codon ratios for K amino-acid 
+#
 # input : 
 # Lysine codon frequencies, one position by line, eg.
 # AAA AAG

@@ -1,4 +1,4 @@
-# Scripts and data files for "Encoded lysine(s) near the N terminal increase the yield of expressed proteins in bacteria"
+# Scripts and data files for "Encoded lysines at the beginning of coding sequences enhance translation via their A-enriched codons and side chain"
 
 Scripts are under the CeCILL 2.1 licence which is a free software licence, explicitly compatible with the GNU GPL.
 
@@ -23,9 +23,10 @@ In a `n_terminal_lysine` repository, you may have:
 - conda_env_compute_n_terminal_lysine.yml: recipe to create a conda environment and run shell script
 - get_x_nt.awk: get x fisrt nucleotides for each sequence of a multiple fasta file (used in compute.sh)
 - prepare_graphs.sh: prepare a shell file to create graph 
+- ratio_for_?codons.awk: compute specific ratios from positional frequencies of codon (ratio with 2 codon frequencies eg. AGA/AGG ; R ratios: AGA/(AGA+AGG) and (AGA+AGG)/(AGA+AGG+CGA+CGC+CGG+CGT) ; K ratios: AAA/AAG and AAA/(AAA+AGG) ) with a minimal threshold for the denominator
 - transpose.awk: matrix transposition (used in compute.sh)
 - README.md (this file)
-- species_Archaea.list, species_Bacteria.list, species_Eukaryotes.list (lists of cdna_sequences used in the article)
+- species_Archaea.list, species_Bacteria.list, species_Eukaryotes.list, and bact_9.list (lists of cdna_sequences used in the article)
 
 ### Note about the third-party tools
 In order to increase the reproducibility of the computational analyses we worked with conda environements (see the yml files to create them, `conda_env_*_n_terminal_lysine.yml`). Otherwise, softwares emboss (version 6.0) and R (version 4.3.1, including dplyr and ggplot2 libraries) are needed.
@@ -40,8 +41,8 @@ We download the [200617_TEMPURA.csv](http://togodb.org/release/200617_TEMPURA.cs
 
 **bacteria** and **archaea** species were selected when they have both a Topt_average and an Assembly_or_asseccion values in the [200617_TEMPURA.csv](http://togodb.org/release/200617_TEMPURA.csv) and a corresponding cDNA files (`*cdna_from_genomics files.fasta.gz`) to download from the ncbi ftp site.
 
-**eukaryota** selection: downloaded from ncbi assembly query with [eukaryotes[organism] AND “reference genome"[RefSeq Category]](https://www.ncbi.nlm.nih.gov/assembly/?term=eukaryotes%5borganism%5d+AND+%E2%80%9Creference+genome%22%5bRefSeq+Category%5d) added with green alga, african frog and fission yeast. 
-Downloaded cDNA files versions (*_cds_from_genomic.fna.gz) are:
+**eukaryota** selection: downloaded in may 2023 from an ncbi assembly query with [eukaryotes[organism] AND “reference genome"[RefSeq Category]](https://www.ncbi.nlm.nih.gov/assembly/?term=eukaryotes%5borganism%5d+AND+%E2%80%9Creference+genome%22%5bRefSeq+Category%5d) added with green alga, african frog and fission yeast. 
+Downloaded cDNA files versions in may 2023 (*_cds_from_genomic.fna.gz) are:
 ```
 GCA_000001215.4_Release_6_plus_ISO1_MT          # Drosophila melanogaster 6           # fruit fly
 GCA_000001735.2_TAIR10.1                        # Arabidopsis thaliana TAIR10         # thale cress
@@ -57,7 +58,7 @@ GCF_017654675.1_J_2021                          # Xenopus laevis                
 
 # Runing 
 
-Run first the `compute.sh` script to get a summary table, the `prepare_graphs.sh` script to create a shell script adapted to your data, and next this last shell script to obtains one frequencies amino-acids graph by spacies.
+Run first the `compute.sh` script to get a summary table, the `prepare_graphs.sh` script to create a shell script adapted to your data, and next this last shell script to obtains one frequencies amino-acids graph by species.
 
 ## Get the frequencies amino-acids table
 
@@ -81,7 +82,7 @@ Go to the `n_terminal_lysine` repository.
 
 ### Data
 
-Download data (TEMPURA DB, 2 bacteria, 2 archaea, 2 eukaryota):
+Download data (TEMPURA DB, select data for 2 bacteria, 2 archaea, 2 eukaryota):
 ```
 wget http://togodb.org/release/200617_TEMPURA.csv
 mkdir -p ncbi_gca ; cd ncbi_gca ;
@@ -153,6 +154,11 @@ which generates:
     └── GCA_000146045.2.transeq
 ```
 The `*.allAA_Plong_geeceeCDS_Toptave_iep_sp.tsv` are the resulting tables.
+
+The specific ratios of positional frequencies of codon are computed for 9 selected bacterial species (listed in `bact_9.list`):
+
+
+ (ratio with 2 codon frequencies eg. AGA/AGG ; R ratios: AGA/(AGA+AGG) and (AGA+AGG)/(AGA+AGG+CGA+CGC+CGG+CGT) ; K ratios: AAA/AAG and AAA/(AAA+AGG) ) with a minimal threshold for the denominator
 
 ### Graphs
 
