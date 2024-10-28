@@ -22,7 +22,16 @@ aa <- read_csv(inFile)
 
 # graph creation:
 # dashed: +geom_line(aes(y=G,color="G"),linetype="dashed"))+
-aaGraph <- ggplot(cbind(position,aa),aes(x=position))+geom_line(aes(y=K,color="K"))+geom_line(aes(y=R,color="R"))+geom_line(aes(y=N,color="N"))+geom_line(aes(y=H,color="H"))+geom_line(aes(y=Y,color="Y"))+geom_line(aes(y=I,color="I"))+labs(title = graphTitle, x = "aa position", y = "aa frequency", color="legend")+theme_bw()
+aaGraph <- ggplot(cbind(position,aa),aes(x=position))+
+   geom_line(aes(y=H,color="H"))+ # #CCBB44
+   geom_line(aes(y=I,color="I"))+ # darkorange
+   geom_line(aes(y=K,color="K"),linewidth=1)+ # red
+   geom_line(aes(y=N,color="N"))+ # green
+   geom_line(aes(y=R,color="R"),linewidth=1)+ # blue #4477AA
+   geom_line(aes(y=Y,color="Y"))+ # #AA3377
+   scale_color_manual(values=c("#CCBB44","darkorange","red","green4","blue","#AA3377"))+
+   labs(title = graphTitle, x = "aa position", y = "aa count", color="legend")+
+   theme_bw()
 
 # graph save (pdf and png formats):
 outFilePdf <- str_replace_all(inFile, "csv", "pdf")
