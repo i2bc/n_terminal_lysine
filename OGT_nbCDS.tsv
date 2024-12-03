@@ -1,0 +1,996 @@
+GCA_000006175	Methanococcus voltae A3	37.5	1712
+GCA_000006805	Halobacterium salinarum NCR-1	50.0	2605
+GCA_000007065	Methanosarcina mazei S-6	40.0	3357
+GCA_000007085	Caldanaerobacter subterraneus ATCC BAA‐225	65.0	2588
+GCA_000007185	Methanopyrus kandleri AV19	98.0	1686
+GCA_000007225	Pyrobaculum aerophilum IM2 	100.0	2596
+GCA_000007305	Pyrococcus furiosus Vc1	100.0	2062
+GCA_000007345	Methanosarcina acetivorans ATCC35395	37.5	4540
+GCA_000008265	Picrophilus torridus KAW 2/3	60.0	1526
+GCA_000008365	Mycoplasma mobile  163K	30.0	635
+GCA_000008645	Methanothermobacter thermautotrophicus ∆H	67.5	1867
+GCA_000008665	Archaeoglobus fulgidus VC-16	83.0	2393
+GCA_000009365	Alcanivorax borkumensis SK2	27.5	2742
+GCA_000009405	Staphylococcus carnosus 361	35.0	2455
+GCA_000009625	Mesorhizobium japonicum Opo-235	28.0	7281
+GCA_000009865	Staphylococcus haemolyticus ATCC 29970	35.0	2685
+GCA_000009905	Symbiobacterium thermophilum T	60.0	3331
+GCA_000009965	Thermococcus kodakarensis KOD1	85.0	2303
+GCA_000010125	Staphylococcus saprophyticus S‐41	31.5	2512
+GCA_000010285	Kocuria rhizophila DSM11926	28.0	2323
+GCA_000010305	Gemmatimonas aurantiaca T-27	30.0	3911
+GCA_000010785	Hydrogenobacter thermophilus TK-56	72.5	1889
+GCA_000010985	Deferribacter desulfuricans BMA	62.5	2360
+GCA_000011005	Methanocella paludicola SANAE	36.0	2986
+GCA_000011105	Pyrococcus horikoshii OT3	98.0	2056
+GCA_000011125	Aeropyrum pernix K1	92.5	1695
+GCA_000011185	Thermoplasma volcanium GSS1	60.0	1526
+GCA_000011205	Sulfurisphaera tokodaii 7	80.0	2785
+GCA_000011245	Oceanobacillus iheyensis HTE831	30.0	3496
+GCA_000011905	Dehalococcoides mccartyi 195	27.5	1570
+GCA_000012285	Sulfolobus acidocaldarius NBRC 15157	72.5	2223
+GCA_000012305	Psychrobacter arcticus 273-4 	22.0	2107
+GCA_000012545	Methanosphaera stadtmanae MCB-3	38.0	1532
+GCA_000012665	Desulfovibrio alaskensis Al1	37.0	3237
+GCA_000012685	Myxococcus xanthus FB	29.0	7303
+GCA_000012865	Carboxydothermus hydrogenoformans Z-2901	71.0	2600
+GCA_000012885	Pelobacter carbinolicus Gra Bd 1	35.0	3249
+GCA_000013285	Clostridium perfringens ATCC 3626	41.0	2861
+GCA_000013405	Syntrophus aciditrophicus SB	35.0	3141
+GCA_000013445	Methanospirillum hungatei JF1	37.0	3130
+GCA_000013605	Rhodoferax ferrireducens T118	25.0	4393
+GCA_000013665	Saccharophagus degradans 2-40 	30.0	3990
+GCA_000013705	Methylobacillus flagellatus KT	42.0	2735
+GCA_000013725	Methanococcoides burtonii DSM 6242	23.4	2258
+GCA_000013765	Shewanella denitrificans OS217	22.5	3733
+GCA_000013885	Nitrobacter hamburgensis X14	29.0	4307
+GCA_000013905	Psychrobacter cryohalolentis K5	22.0	2495
+GCA_000013985	Sphingopyxis alaskensis LMG 18877	37.0	3180
+GCA_000014225	Pseudoalteromonas atlantica ATCC 19262	30.0	4260
+GCA_000014385	Oenococcus oeni ATCC 23279	22.0	1682
+GCA_000014745	Maricaulis maris CM11	22.5	3045
+GCA_000014785	Alkalilimnicola ehrlichii MLHE-1 	30.0	2843
+GCA_000015025	Acidothermus cellulolyticus 11B	55.0	2141
+GCA_000015045	Pelobacter propionicus  Ott Bd 1	33.0	3783
+GCA_000015145	Hyperthermus butylicus DSM 5456	100.5	1602
+GCA_000015205	Pyrobaculum islandicum GEO3	100.0	1975
+GCA_000015225	Thermofilum pendens Hvv3	87.5	1872
+GCA_000015245	Shewanella amazonensis SB2B	30.0	3618
+GCA_000015505	Polaromonas naphthalenivorans CJ2	20.0	4904
+GCA_000015745	Geobacillus thermodenitrificans DSM 465	57.5	3445
+GCA_000015765	Methanocorpusculum labreanum Z	37.0	1732
+GCA_000015825	Methanoculleus marisnigri JR1	22.5	2481
+GCA_000015945	Staphylothermus marinus F1	92.0	1566
+GCA_000016385	Pyrobaculum arsenaticum PZ6	90.0	2294
+GCA_000016425	Salinispora tropica CNB-440 	21.5	4515
+GCA_000016505	Clostridium kluyveri ATCC 8527	35.0	3913
+GCA_000016545	Caldicellulosiruptor saccharolyticus Tp8T 6331	70.0	2661
+GCA_000016605	Metallosphaera sedula TH2	75.0	2251
+GCA_000016645	Flavobacterium johnsoniae van Niel MYX 1.1.1	27.5	4999
+GCA_000016785	Thermotoga petrophila RKU-1	80.0	1770
+GCA_000016905	Thermosipho melanesiensis BI429	70.0	1861
+GCA_000017165	Methanococcus vannielii SB	37.5	1660
+GCA_000017185	Methanococcus aeolicus Nankai-3	46.0	1479
+GCA_000017225	Methanococcus maripaludis JJ	38.0	1770
+GCA_000017265	Phenylobacterium zucineum HLK1	37.0	3833
+GCA_000017425	Bacillus cytotoxicus NVH 391-98 	33.5	3822
+GCA_000017545	Fervidobacterium nodosum Rt17‐B	70.0	1734
+GCA_000017625	Methanoregula boonei 6A8	36.0	2436
+GCA_000017805	Roseiflexus castenholzii HLO8	50.0	4303
+GCA_000017865	Pseudothermotoga lettingae TMO	65.0	2021
+GCA_000017945	Ignicoccus hospitalis  KIN4/I	90.0	1431
+GCA_000018025	Shewanella sediminis HAW-EB3	10.0	4453
+GCA_000018105	Acaryochloris marina MBIC11017	29.0	8360
+GCA_000018265	Salinispora arenicola CNH-643	24.0	4886
+GCA_000018285	Shewanella pealeana ANG-SQ1	25.0	4216
+GCA_000018305	Caldivirga maquilingensis IC-167	85.0	1952
+GCA_000018325	Alkaliphilus oremlandii OhILAs	37.0	2814
+GCA_000018365	Thermococcus onnurineus NA1	80.0	1974
+GCA_000018465	Nitrosopumilus maritimus SCM1	32.0	1781
+GCA_000018605	Petrotoga mobilis SJ95	59.0	1884
+GCA_000018685	Lachnoclostridium phytofermentans ISDg	37.0	3877
+GCA_000018785	Acholeplasma laidlawii PG8 	37.0	1378
+GCA_000018945	Thermotoga neapolitana NS-E	80.0	1924
+GCA_000019045	Anoxybacillus flavithermus DSM 2641	62.5	2830
+GCA_000019165	Heliobacterium modesticaldum Ice1	52.0	2988
+GCA_000019185	Shewanella halifaxensis  HAW-EB4	10.0	4255
+GCA_000019785	Leptothrix cholodnii LVMW 99	25.0	4330
+GCA_000019905	Exiguobacterium sibiricum 255-15	36.0	2993
+GCA_000020005	Natranaerobius thermophilus JW/NM-WN-LF	53.0	2889
+GCA_000020145	Elusimicrobium minutum Pei191	30.0	1529
+GCA_000020485	Halothermothrix orenii H168	60.0	2323
+GCA_000020525	Chloroherpeton thalassium GB-78	25.0	2704
+GCA_000020725	Geobacter bemidjiensis Bem	30.0	3986
+GCA_000020945	Coprothermobacter proteolyticus BT	63.0	1384
+GCA_000020965	Dictyoglomus thermophilum H‐6‐12	78.0	1893
+GCA_000021265	Ureaplasma urealyticum T960	32.5	642
+GCA_000021285	Thermosipho africanus Ob7	75.0	1944
+GCA_000021485	Acidithiobacillus ferrooxidans ATCC 23270	32.5	3121
+GCA_000021545	Sulfurihydrogenibium azorense Az-Fu1	68.0	1705
+GCA_000021565	Persephonella marina EX-H1	73.0	2030
+GCA_000021685	Thermomicrobium roseum ATCC 27502	72.5	2838
+GCA_000021725	Nautilia profundicola AmH	40.0	1713
+GCA_000021745	Methylocella silvestris BL2	20.0	3811
+GCA_000021945	Chloroflexus aggregans MD-66	55.0	3721
+GCA_000021965	Methanosphaerula palustris E1-9c	29.0	2649
+GCA_000022025	Pseudarthrobacter chlorophenolicus A6	25.0	4581
+GCA_000022185	Chloroflexus aurantiacus J-10-fl	56.0	4148
+GCA_000022205	Halorubrum lacusprofundi ACAM34	36.0	3556
+GCA_000022265	Geobacter daltonii FRC-32	30.0	3719
+GCA_000022325	Caldicellulosiruptor bescii Z-1320	79.0	2660
+GCA_000022365	Thermococcus gammatolerans EJ3	88.0	2151
+GCA_000022545	Thermococcus sibiricus MM739	78.0	2032
+GCA_000023025	Teredinibacter turnerae T7902	32.5	4211
+GCA_000023065	Tolumonas auensis TA4	22.0	3124
+GCA_000023265	Acidimicrobium ferrooxidans ICP 	48.0	1961
+GCA_000023325	Kosmotoga olearia TBF 19.5.1	65.0	2113
+GCA_000023465	Zunongwangia profunda SM-A87	27.5	4639
+GCA_000023945	Halorhabdus utahensis AX-2	50.0	2993
+GCA_000023985	Methanocaldococcus fervens AG8G 	85.0	1581
+GCA_000024005	Chitinophaga pinensis ATCC 43595	23.5	7188
+GCA_000024025	Catenulispora acidiphila ID139908 	25.0	8899
+GCA_000024085	Kangiella koreensis SW-125 	33.5	2628
+GCA_000024125	Robiginitalea biformata HTCC2501	30.0	3202
+GCA_000024285	Alicyclobacillus acidocaldarius 104-1A	62.5	3079
+GCA_000024365	Nakamurella multipartita Y-104	25.0	5228
+GCA_000024385	Thermomonospora curvata B9	50.0	4879
+GCA_000024425	Meiothermus ruber 21	62.5	3008
+GCA_000024605	Ammonifex degensii KC4	70.0	2074
+GCA_000024625	Methanocaldococcus vulcanius M7	80.0	1742
+GCA_000024765	Halothiobacillus neapolitanus ATCC 23641	30.0	2351
+GCA_000024805	Haliangium ochraceum SMP-2	32.0	6709
+GCA_000024845	Rhodothermus marinus DSM 4252 	65.0	2861
+GCA_000024905	Thermanaerovibrio acidaminovorans Su883	52.5	1733
+GCA_000024985	Sphaerobacter thermophilus Sphaerobacter thermophilus	55.0	3475
+GCA_000025105	Thermotoga naphthophila  RKU-10	80.0	1764
+GCA_000025225	Mageeibacillus indolicus BAA-2120 	37.0	1536
+GCA_000025285	Archaeoglobus profundus AV18	82.0	1819
+GCA_000025305	Acidaminococcus fermentans VR4	33.5	2023
+GCA_000025325	Haloterrigena turkmenica 4k	51.0	5105
+GCA_000025505	Ferroglobus placidus AEDII12DO 	85.0	2471
+GCA_000025605	Thermocrinis albus HI 11/12 	85.0	1584
+GCA_000025625	Natrialba magadii MS3	38.5	4154
+GCA_000025645	Thermoanaerobacter italicus Ab9	72.5	2266
+GCA_000025665	Aciduliprofundum boonei T469	70.0	1540
+GCA_000025685	Haloferax volcanii DS2	45.0	3891
+GCA_000025705	Sideroxydans lithotrophicus ES-1	30.0	2972
+GCA_000025725	Denitrovibrio acetiphilus N2460	36.0	2957
+GCA_000025945	Desulfotalea psychrophila LSv54	10.0	3226
+GCA_000026045	Natronomonas pharaonis Gabara	45.0	2761
+GCA_000026105	Pseudomonas entomophila L48	33.5	5108
+GCA_000026125	Herminiimonas arsenicoxydans ULPAs1	25.0	3228
+GCA_000055785	Chromohalobacter salexigens Chromohalobacter salexigens	37.0	3279
+GCA_000060345	Gramella forsetii KT0803	23.5	3571
+GCA_000063445	Methanocella arvoryzae MRE50	45.0	3079
+GCA_000067165	Sorangium cellulosum So ce1871	30.0	9346
+GCA_000091665	Methanocaldococcus jannaschii JAL-1	85.0	1766
+GCA_000092105	Planctopirus limnophila Mu 290	31.0	4246
+GCA_000092125	Meiothermus silvanus VI-R2	55.0	3499
+GCA_000092185	Thermosphaera aggregans M11TL	85.0	1382
+GCA_000092305	Methanocaldococcus infernus ME	85.0	1440
+GCA_000092405	Syntrophothermus lipocalidus TGB-C1	55.0	2305
+GCA_000092465	Staphylothermus hellenicus P8	85.0	1597
+GCA_000092825	Segniliparus rotundus CDC 1076 	33.0	3000
+GCA_000092905	Kyrpidia tusciae T2	55.0	3145
+GCA_000092925	Starkeya novella ATCC 8093	27.5	4421
+GCA_000092965	Thermoanaerobacter mathranii A3	72.5	2155
+GCA_000093025	Methylotenera versatilis 301	19.5	2755
+GCA_000143165	Dehalogenimonas lykanthroporepellens BL-DC-9	31.0	1654
+GCA_000143685	Clostridium ljungdahlii PETC	37.0	4174
+GCA_000144645	Thermosediminibacter oceani JW/IW-1228P	64.0	2184
+GCA_000144695	Acetohalobium arabaticum Z-7288	39.0	2272
+GCA_000144915	Acidilobus saccharovorans 345-15	82.5	1498
+GCA_000145215	Caldicellulosiruptor obsidiansis OB47 	78.0	2181
+GCA_000145275	Clostridium cellulovorans 743B	37.0	4249
+GCA_000145295	Methanothermobacter marburgensis Marburg 	60.0	1757
+GCA_000145615	Thermoanaerobacterium thermosaccharolyticum ATCC 7956	58.5	2597
+GCA_000147355	Sulfurimonas autotrophica OK10	25.0	2148
+GCA_000147695	Thermoanaerobacter wiegelii Rt8.B1	66.5	2513
+GCA_000147875	Methanolacinia petrolearia DSM 11571	40.0	2782
+GCA_000148385	Vulcanisaeta distributa IC-017	90.0	2492
+GCA_000151105	Thermococcus barophilus MP	85.0	2259
+GCA_000152245	Eubacterium callanderi FD	37.0	4563
+GCA_000152265	Ferroplasma acidarmanus fer1	42.0	1951
+GCA_000152825	Parvularcula bermudensis HTCC2503	30.0	2677
+GCA_000153485	Psychroflexus torquis Psychroflexus torquis	12.5	3512
+GCA_000154765	Phaeobacter inhibens T5	28.0	3850
+GCA_000165465	Halanaerobium praevalens GSL	37.0	2058
+GCA_000165485	Stigmatella aurantiaca ATCC 25190	30.0	8344
+GCA_000165505	Ilyobacter polytropus CuHbu1	30.0	2868
+GCA_000166095	Methanothermus fervidus V24S	83.0	1278
+GCA_000166335	Caldicellulosiruptor owensensis OL	75.0	2141
+GCA_000166355	Caldicellulosiruptor hydrothermalis 108	65.0	2539
+GCA_000166695	Caldicellulosiruptor kristjanssonii I77R1B	78.0	2473
+GCA_000166775	Caldicellulosiruptor kronotskyensis 2002	70.0	2459
+GCA_000172635	Alteromonas macleodii 107	33.5	3858
+GCA_000172995	Halogeometricum borinquense PR 3 	40.0	3895
+GCA_000175215	Asticcacaulis excentricus AC48	27.5	3753
+GCA_000175295	Thermoanaerobacter brockii Thermoanaerobacter brockii	57.5	2201
+GCA_000175575	Acidithiobacillus caldus KU	45.0	2900
+GCA_000176915	Pseudodesulfovibrio aespoeensis Aspo-2	27.5	3293
+GCA_000177235	Bacillus cellulosilyticus N4	37.0	4260
+GCA_000178115	Ethanoligenens harbinense YUAN-3	35.0	2698
+GCA_000178835	Cellulosilyticum lentocellum RHM5	38.0	4168
+GCA_000178955	Granulicella mallensis MP5ACTX8 	25.5	4801
+GCA_000178975	Granulicella tundricola MP5ACTX9 	22.5	4536
+GCA_000179575	Methanothermococcus okinawensis IH1 	62.5	1590
+GCA_000179915	Terriglobus saanensis SP1PR4 	25.0	4174
+GCA_000183135	Paludibacter propionicigenes WB4	30.0	3011
+GCA_000183405	Calditerrivibrio nitroreducens Yu37-1	55.0	2089
+GCA_000183425	Marivirga tractuosa H-43	30.0	3747
+GCA_000183725	Sulfuricurvum kujiense YK-1	25.0	2784
+GCA_000183745	Oceanithermus profundus 506	60.0	2362
+GCA_000184345	Spirochaeta thermophila  Z-1203	67.0	2253
+GCA_000184705	Thermaerobacter marianensis 7p75a	75.0	2315
+GCA_000185805	Thermovibrio ammonificans HB-1 	75.0	1805
+GCA_000185965	Pseudoxanthomonas suwonensis 4M1	30.0	3063
+GCA_000186245	Nitratifractor salsuginis E9I37-1	37.0	2079
+GCA_000186265	Cellulophaga algicola IC166	22.5	4145
+GCA_000186345	Isosphaera pallida IS1B	41.0	3713
+GCA_000187005	Thermus scotoductus SE-1	65.0	2446
+GCA_000189775	Thermoanaerobacterium xylanolyticum LX-11 	60.0	2331
+GCA_000190315	Vulcanisaeta moutnovskia 768-28	82.5	2313
+GCA_000190435	Sphaerochaeta globosa Buddy	27.5	3000
+GCA_000190595	Cellulophaga lytica ATCC 23178	26.0	3264
+GCA_000190635	Syntrophobotulus glycolicus FlGlyR 	28.0	3231
+GCA_000191045	Desulfurobacterium thermolithotrophum BSAT	70.0	1489
+GCA_000191585	Methanobacterium lacus 17A1	30.0	2473
+GCA_000192745	Polymorphum gilvum SL003B-26A1	37.0	4374
+GCA_000193375	Thermoproteus uzoniensis Z-605	90.0	2182
+GCA_000193435	Caldicellulosiruptor lactoaceticus 6A	68.0	2309
+GCA_000194135	Hippea maritima MH2	53.0	1656
+GCA_000194625	Archaeoglobus veneficus SNP6	80.0	2077
+GCA_000195275	Treponema succinifaciens ATCC33096	37.0	2592
+GCA_000195335	Marinithermus hydrothermalis T1	67.5	2182
+GCA_000195915	Thermoplasma acidophilum 122–1B2	59.0	1472
+GCA_000195935	Pyrococcus abyssi GE5	96.0	1770
+GCA_000196255	Photobacterium profundum DSJ4	10.0	5477
+GCA_000196275	Deinococcus geothermalis AG-3a	47.0	3038
+GCA_000196315	Croceibacter atlanticus HTCC2559	25.0	2692
+GCA_000196455	Acetoanaerobium sticklandii StadtmanHF	33.5	2561
+GCA_000196495	Aliivibrio salmonicida HI 7751	15.0	3892
+GCA_000196615	Erwinia billingiae LMG 2613	29.0	4911
+GCA_000196655	Methanohalobium evestigatum Z-7303	40.0	2247
+GCA_000196795	Acinetobacter oleivorans DR1	30.0	3855
+GCA_000196875	Halomonas elongata 1H9 	33.5	3560
+GCA_000196895	Halalkalicoccus jeotgali B3	41.0	3862
+GCA_000199675	Anaerolinea thermophila UNI-1 	55.0	3151
+GCA_000202835	Acidiphilium multivorum AIU 301 	31.0	3906
+GCA_000204415	Methanothrix soehngenii GO6	37.5	2838
+GCA_000204925	Metallosphaera cuprina Ar-4	65.0	2024
+GCA_000212395	Thermodesulfobium narugense Na82	52.5	1784
+GCA_000212735	Haliscomenobacter hydrossis O	26.0	6721
+GCA_000213255	Mahella australiensis 50-1 BON	50.0	2855
+GCA_000213655	Alteromonas naphthalenivorans SN2 	27.5	4359
+GCA_000214095	Acidithiobacillus ferrivorans NO-37 	29.5	3081
+GCA_000214175	Hoyosella subflava  DQS3-9A1	37.0	4669
+GCA_000214415	Methanotorris igneus Kol 5	88.0	1767
+GCA_000214435	Desulfotomaculum nigrificans ATCC 19998	55.0	2635
+GCA_000214725	Methanobacterium paludis SWAN1	34.5	2379
+GCA_000215975	Thermodesulfobacterium geofontis OPF15 	83.0	1577
+GCA_000215995	Pyrococcus yayanosii CH1	98.0	1860
+GCA_000217715	Halopiger xanaduensis SH-6	37.0	4201
+GCA_000217795	Thermodesulfatator indicus CIR29812	70.0	2185
+GCA_000217815	Pseudothermotoga thermarum LA3	70.0	1937
+GCA_000218625	Flexistipes sinusarabici MAS10	47.5	2235
+GCA_000219535	Brevibacillus laterosporus ATCC 4517	30.0	4484
+GCA_000222485	Cyclobacterium marinum Raj	25.0	4989
+GCA_000223395	Pyrolobus fumarii 1A	106.0	1965
+GCA_000223905	Haloarcula hispanica Y27	40.0	3856
+GCA_000224085	Muricauda ruestringensis B1	25.0	3413
+GCA_000226295	Chloracidobacterium thermophilum B	51.0	3041
+GCA_000226565	Glaciecola nitratireducens FR1064	25.0	3632
+GCA_000226975	Halobiforma lacisalsi AJ5	43.5	4040
+GCA_000227705	Thermobacillus composti KWC4	50.0	3844
+GCA_000230555	Pelagibacterium halotolerans B2	30.0	3854
+GCA_000230655	Thermotoga maritima MSB8 	80.0	1858
+GCA_000230695	Rhodanobacter denitrificans 2APBS1	30.0	3811
+GCA_000230715	Natronobacterium gregoryi SP2	37.0	3650
+GCA_000231015	Desulfurococcus amylolyticus Z-533	91.0	1419
+GCA_000231405	Desulfitobacterium metallireducens 853-15A	30.0	3031
+GCA_000233775	Thermovirga lienii Cas60314	58.0	1865
+GCA_000234805	Pyrobaculum ferrireducens 1860	92.5	2820
+GCA_000235405	Fervidobacterium pennivorans Ven 5	80.0	1938
+GCA_000235565	Methanosaeta harundinacea 8Ac	35.5	2365
+GCA_000235585	Paenibacillus terrae AM141	30.0	5503
+GCA_000236685	Sphaerochaeta pleomorpha Grapes	27.5	3148
+GCA_000236705	Owenweeksia hongkongensis UST20020801	29.0	3469
+GCA_000237865	Haloquadratum walsbyi C23	45.0	2608
+GCA_000238395	Pseudoalteromonas arctica A 37-1-2	12.5	4267
+GCA_000240075	Flavobacterium columnare 1-S-2cl	27.5	2625
+GCA_000242455	Singulisphaera acidiphila MOB10	23.0	7238
+GCA_000242595	Spirochaeta africana Z-7692 	33.5	2767
+GCA_000242635	Solitalea canadensis UASM 9D	24.0	4295
+GCA_000243115	Niabella soli JS13-8	30.0	4092
+GCA_000243155	Desulfitobacterium dehalogenans JW/IU-DC1 	38.0	3998
+GCA_000246985	Thermococcus litoralis NS-C	85.0	2507
+GCA_000251105	Methanocella conradii HZ254	55.0	2446
+GCA_000252445	Deinococcus gobiensis I-0	30.0	4308
+GCA_000253055	Thermoproteus tenax Kra 1	90.0	2044
+GCA_000253275	Flavobacterium branchiophilum Wakabayashi BGD-7721	21.5	2830
+GCA_000255115	Desulfosporosinus acidiphilus SJ4	30.0	4491
+GCA_000255135	Marinitoga piezophila KA3	65.0	2036
+GCA_000258405	Ignavibacterium album Mat9-16	45.0	3194
+GCA_000258425	Fervidicoccus fontis Kam940	67.5	1382
+GCA_000260965	Methylophaga frappieri JAM7	34.0	2661
+GCA_000260985	Methylophaga nitratireducenticrescens JAM1	30.0	2868
+GCA_000264455	Tistrella mobilis IAM 14872	30.0	5754
+GCA_000264495	Thermogladius calderae 1633	84.0	1411
+GCA_000264765	Edwardsiella anguillarum ET080813	29.0	4188
+GCA_000265385	Aequorivita sublithincola 9月3日	20.0	3129
+GCA_000265405	Belliella baltica BA134	25.0	3668
+GCA_000265525	Thermococcus cleftensis CL1	88.0	2016
+GCA_000266925	Acetomicrobium mobile NGA	57.5	2003
+GCA_000276705	Klebsiella michiganensis W14	35.0	6023
+GCA_000277125	Mycobacterium intracellulare DSM 44049	34.0	5120
+GCA_000279145	Melioribacter roseus P3M-2	55.0	2834
+GCA_000281175	Caldilinea aerophila STL-6-O1 	55.0	4086
+GCA_000283575	Oscillibacter valericigenes Sjm18-20	30.0	4702
+GCA_000284015	Blastococcus saxobsidens BC444 	32.0	4787
+GCA_000284115	Phycisphaera mikurensis FYK2301M01	27.5	3265
+GCA_000284295	Actinoplanes missouriensis ATCC 14538	28.0	8107
+GCA_000284315	Leptospirillum ferrooxidans L15	33.5	2417
+GCA_000284335	Caldisericum exile AZM16c01	65.0	1565
+GCA_000284615	Marinobacter hydrocarbonoclasticus 17	30.0	3786
+GCA_000287215	Aeromonas media ATCC33907	22.0	4364
+GCA_000294775	Bacillus oceanisediminis MK-7	37.0	5518
+GCA_000299335	Alcanivorax pacificus W11-5	26.5	3680
+GCA_000299435	Exiguobacterium antarcticum H2	37.0	2735
+GCA_000300005	Alcanivorax dieselolei B-5 	28.0	4397
+GCA_000300235	Thalassospira xiamenensis M-5	22.0	4333
+GCA_000304355	Methanoculleus bourgensis MS2	40.0	2580
+GCA_000305785	Simiduia agarivorans SA1	32.5	3795
+GCA_000305935	Thermacetogenium phaeum PB	58.0	2806
+GCA_000306765	Haloferax mediterranei R-4	50.5	3797
+GCA_000306785	Modestobacter marinus 42H12-1	28.0	5417
+GCA_000317795	Caldisphaera lagunensis IC-154	72.5	1474
+GCA_000317835	Deinococcus peraridilitoris KR-200 	30.0	4169
+GCA_000317975	Carnobacterium maltaromaticum ATCC 27865	30.0	3538
+GCA_000319575	Spiribacter salinus M19-40 	37.0	1667
+GCA_000325705	Echinicola vietnamensis KMM 6221	31.0	4532
+GCA_000327485	Methanoregula formicica SMSP	31.5	2806
+GCA_000328525	Halovivax ruber XH-70	37.0	3092
+GCA_000328665	Methanomethylovorans hollandica DMS1	35.5	2547
+GCA_000328685	Natronococcus occultus SP4	37.5	4146
+GCA_000332115	Nonlabens dokdonensis  DSW-6	25.0	3605
+GCA_000340435	Mycobacterium haemophilum ATCC 29548	31.0	3667
+GCA_000341395	Desulfocapsa sulfexigens SB164P1	30.0	3519
+GCA_000347635	Paraglaciecola psychrophila 170	12.0	5596
+GCA_000348565	Edwardsiella piscicida ET883	29.0	3381
+GCA_000355675	Thalassolituus oleivorans MIL-1	22.5	3640
+GCA_000355765	Nitrosospira lacus APG3	25.0	2821
+GCA_000376545	Epibacterium mobile MBIC01146	33.5	4416
+GCA_000385565	Archaeoglobus sulfaticallidus PM70-1	75.0	2208
+GCA_000400935	Spiroplasma chrysopicola DF-1	30.0	1007
+GCA_000400955	Spiroplasma syrphidicola EA-1	32.0	1004
+GCA_000439435	Spiroplasma taiwanense CT-1	27.5	988
+GCA_000439455	Spiroplasma diminutum CUAS-1	30.0	857
+GCA_000455605	Flavobacterium indicum GPTSA100-9	37.0	2625
+GCA_000468615	Cellulophaga baltica LMG 18535	28.0	3736
+GCA_000470655	Halorhabdus tiamatea SARL4B	45.0	3007
+GCA_000484505	Clostridium autoethanogenum JA1-1	37.0	4008
+GCA_000485905	Spiribacter curvatus UAH-SP71	37.0	1861
+GCA_000493735	Carnobacterium inhibens K1	20.0	2257
+GCA_000496285	Bacillus toyonensis BCT7112	35.0	4907
+GCA_000503895	Hyphomicrobium nitrativorans NL23 	32.5	3304
+GCA_000507245	Salinispira pacifica L21-RPul-D2	35.0	3372
+GCA_000510285	Pseudomonas monteilii CFML 90-60 	30.0	5405
+GCA_000511305	Rhodococcus pyridinivorans PDB9	33.5	5127
+GCA_000511385	Phaeobacter gallaeciensis BS107	25.0	4340
+GCA_000512735	Thermocrinis ruber OC 1/4 	80.0	1607
+GCA_000517445	Thermococcus paralvinellae ES1	82.0	2016
+GCA_000517565	Desulfurella acetivorans Desulfurella acetivorans	54.5	1818
+GCA_000517625	Halostagnicola larsenii XH-48	37.0	4157
+GCA_000522985	Gemmatirosa kalamazoonesis KBS708	37.0	6358
+GCA_000565195	Spiroplasma mirum SMCA	37.0	1384
+GCA_000565215	Spiroplasma sabaudiense Ar-1343	30.0	924
+GCA_000568815	Sulfurospirillum multivorans DSM 12446	30.0	3191
+GCA_000576555	Hymenobacter swuensis DY53	30.0	4605
+GCA_000577895	Clostridium bornimense M2/40	35.0	3292
+GCA_000585495	Thermococcus nautili 43860	87.5	2236
+GCA_000591035	Aeropyrum camini SY1	85.0	1644
+GCA_000591055	Natronomonas moolapensis 8.8.11 	38.5	2709
+GCA_000600105	Lysinibacillus varians GY32	35.0	4477
+GCA_000612505	Paenibacillus sabinae T27	30.0	4774
+GCA_000626635	Draconibacterium orientale MK-7	30.0	3944
+GCA_000635915	Brevundimonas naejangsanensis BIO-TAS2-2	30.0	2703
+GCA_000695095	Gemmatimonas phototrophica AP64	27.5	3377
+GCA_000696485	Halomonas campaniensis 5AG	37.0	3519
+GCA_000698785	Nitrososphaera viennensis EN76	42.0	3097
+GCA_000706725	Bacillus lehensis MLB2 	25.0	3991
+GCA_000709415	Staphylococcus xylosus KL162	30.0	2485
+GCA_000724485	Bacillus methanolicus PB1	55.0	3277
+GCA_000724625	Fimbriimonas ginsengisoli Gsoil 348	30.0	4809
+GCA_000725365	Terribacillus goriensis CL-GR16	30.0	3206
+GCA_000725385	Dyella japonica XD53	27.5	3781
+GCA_000725425	Palaeococcus pacificus DY20341	80.0	1987
+GCA_000734015	Thermodesulfobacterium commune YSRA-1 	70.0	1436
+GCA_000737325	Sandaracinus amylolyticus NOSO-4	30.0	8921
+GCA_000739065	Methanocaldococcus bathoardescens JH146	82.0	1635
+GCA_000746525	Pseudomonas alkylphenolica KL28	21.5	5141
+GCA_000754405	Flavobacterium psychrophilum Ordal 3068	17.5	2286
+GCA_000757795	Methylobacterium oryzae CBMB20 	28.0	6273
+GCA_000758665	Paenibacillus borealis KK19	28.0	6175
+GCA_000762265	Methanobacterium formicicum MF	41.0	2344
+GCA_000763575	Thermoanaerobacter kivui LKT-1	66.0	2341
+GCA_000767275	Fervidobacterium islandicum H21	65.0	1894
+GCA_000769655	Thermococcus eurythermalis A501	85.0	2086
+GCA_000789255	Geoglobus acetivorans SBH6	81.0	2197
+GCA_000800395	Deinococcus swuensis DY59	30.0	2884
+GCA_000807275	Frischella perrara PEB0191 	37.0	2258
+GCA_000807675	Eubacterium limosum ATCC 8486	37.0	3969
+GCA_000812665	Halocynthiibacter arcticus PAMC 20958 	21.0	3896
+GCA_000816085	Staphylococcus hyicus D. Sompolinsky no. 1	32.5	2252
+GCA_000816105	Thermococcus guaymasensis TYS 	88.0	2087
+GCA_000816145	Pseudothermotoga hypogea SEBR 7054	70.0	2084
+GCA_000817955	Geobacter pickeringii G13	30.0	2974
+GCA_000818035	Neisseria elongata M2	35.0	2073
+GCA_000818095	Jeotgalibacillus malaysiensis D5	37.0	4424
+GCA_000819445	Corynebacterium humireducens MFC-5	37.0	2523
+GCA_000819565	Celeribacter indicus P73	28.0	4804
+GCA_000827125	Geoalkalibacter subterraneus Red1	40.0	3011
+GCA_000828475	Methyloceanibacter caenitepidi Gela4	35.0	3318
+GCA_000828635	Sulfuritalea hydrogenivorans sk43H	25.0	3564
+GCA_000829395	Lactobacillus hokkaidonensis LOOC260	25.0	2321
+GCA_000830985	Marinobacter similis A3d10	27.5	2674
+GCA_000831005	Marinobacter salarius R9SW1 	27.5	3150
+GCA_000832985	Bacillus megaterium ATCC 14581	30.0	5746
+GCA_000833025	Myroides profundi D-25	32.5	3527
+GCA_000833105	Clostridium beijerinckii ATCC 25752	37.0	5365
+GCA_000835165	Corynebacterium marinum D7015	31.0	2550
+GCA_000875775	Nitrosopumilus piranensis D3C	32.0	2137
+GCA_000934545	Rugosibacter aromaticivorans Ca6	32.0	2434
+GCA_000934565	Pseudomonas simiae Oli	30.0	5512
+GCA_000935025	Sphingomonas hengshuiensis WHSC-8	28.0	4217
+GCA_000940805	Gynuella sunshinyii YC6258	30.0	5933
+GCA_000940995	Photobacterium gaetbulicola Gung47	30.0	4987
+GCA_000941055	Siansivirga zeaxanthinifaciens CC-SAMT-1 	30.0	2743
+GCA_000953715	Defluviitoga tunisiensis SulfLac1	55.0	1815
+GCA_000956175	Nitrosopumilus adriaticus NF5	31.0	2157
+GCA_000959365	Burkholderia oklahomensis C6786	37.0	5969
+GCA_000960975	Martelella endophytica YC6887	29.0	4002
+GCA_000961095	Paenibacillus beijingensis BJ-18	30.0	4696
+GCA_000963865	Muricauda lutaonensis CC-HSB-11 	41.0	2876
+GCA_000967915	Acholeplasma brassicae 0502T	30.0	1688
+GCA_000968055	Acholeplasma palmae J233	30.0	1435
+GCA_000969885	Methanosarcina thermophila TM-1	50.0	2530
+GCA_000969905	Methanosarcina vacuolata 2-761 	38.5	3480
+GCA_000970085	Methanosarcina siciliae T4/M	35.0	3932
+GCA_000970265	Methanosarcina lacustris ZS	25.0	3193
+GCA_000970285	Methanosarcina horonobensis HB-1	37.0	4060
+GCA_000970325	Methanococcoides methylutens TMA-10	32.5	2178
+GCA_000973105	Zobellia galactanivorans Dsij	35.0	4728
+GCA_000973725	Pontibacter korlensis X14-1	33.5	4099
+GCA_000974425	Spirosoma radiotolerans DG5A	27.5	5299
+GCA_000974685	Ferriphaselus amnicola OYT1	27.5	2635
+GCA_000981765	Kangiella geojedonensis YCS-5	30.0	2182
+GCA_000987835	Sulfurovum lithotrophicum 42BKT	29.0	2068
+GCA_000993785	Streptomyces xiamenensis MCCC 1A01550	28.0	5466
+GCA_000993805	Thermofilum uzonense 1807-2	85.0	1452
+GCA_001005905	Salinicoccus halodurans W24	28.0	2619
+GCA_001006045	Geoglobus ahangari 234	88.0	1966
+GCA_001008165	Altererythrobacter atlanticus 26DY36 	32.5	3227
+GCA_001013905	Streptomyces leeuwenhoekii C34	30.0	6960
+GCA_001020205	Clostridium sporogenes ATCC 3584	35.0	3593
+GCA_001020725	Pseudomonas lundensis 573	25.0	786
+GCA_001027285	Archangium gephyra M18	25.0	10079
+GCA_001027545	Endomicrobium proavitum Rsa215	30.0	1317
+GCA_001028625	Altererythrobacter marensis MSW-14 	30.0	2621
+GCA_001028645	Staphylococcus capitis LK499	35.0	2330
+GCA_001028705	Croceicoccus naphthovorans PQ-2 	32.0	3488
+GCA_001029145	Burkholderia contaminans LMG23361	37.0	7209
+GCA_001029265	Spiroplasma eriocheiris TDA-040725-5	30.0	1178
+GCA_001039495	Bacillus coagulans ATCC 7050	48.5	4055
+GCA_001042405	Lactobacillus acetotolerans ATCC 43578	30.0	1648
+GCA_001042715	Clostridium aceticum ATCC 35044	30.0	3833
+GCA_001043175	Marinobacter psychrophilus 20041	17.0	3408
+GCA_001046955	Marinovum algicola FF3	27.5	4985
+GCA_001050435	Lactobacillus koreensis DCY50	32.5	2531
+GCA_001051995	Thauera humireducens SgZ-1	31.0	3691
+GCA_001077815	Erythrobacter atlanticus s21-N3	28.0	3189
+GCA_001186155	Planococcus versutus  L10.15	26.0	3082
+GCA_001187595	Anoxybacillus gonensis G2	57.5	2739
+GCA_001187785	Wenzhouxiangella marina Ma-11	37.0	2994
+GCA_001187845	Octadecabacter temperatus SB1	20.0	3223
+GCA_001189295	Chondromyces crocatus Cm c5	29.0	8303
+GCA_001190945	Luteipulveratus mongoliensis MN07-A0370	24.0	4666
+GCA_001190965	Haloferax gibbonsii Ma 2.38	40.0	3677
+GCA_001262015	Prevotella fusca W1435 	35.0	2407
+GCA_001263205	Labilithrix luteola B00002	25.0	11468
+GCA_001267155	Spiroplasma litorale TN-1	32.0	1062
+GCA_001267175	Oblitimonas alkaliphila B4199	27.5	2230
+GCA_001267435	Moorella thermoacetica ATCC 35608	57.0	2580
+GCA_001273775	Nitrospira moscoviensis M-1 	39.0	4765
+GCA_001274875	Spiroplasma kunkelii E275	31.0	1684
+GCA_001275345	Kocuria palustris DSM11925	28.0	2212
+GCA_001281045	Spiroplasma cantharicola CC-1	32.0	1016
+GCA_001281485	Altererythrobacter epoxidivorans SW-109	35.0	2737
+GCA_001294575	Pseudomonas versuta L10.10	28.0	4380
+GCA_001295365	Parageobacillus thermoglucosidasius DSM 2542	60.0	3540
+GCA_001302565	Glutamicibacter halophytocola KLBMP 5180	26.5	3444
+GCA_001302585	Kibdelosporangium phytohabitans KLBMP 1111	28.0	10151
+GCA_001305595	Azospirillum thiophilum BV-S	37.0	6153
+GCA_001305675	Gordonia phthalatica QH-11	30.0	3859
+GCA_001307805	Lentibacillus amyloliquefaciens LAM0015	35.0	3536
+GCA_001308265	Celeribacter marinus IMCC12053 	30.0	3133
+GCA_001310085	Rufibacter tibetensis 1351	30.0	4090
+GCA_001310225	Algibacter alginicilyticus HZ22	28.0	3214
+GCA_001314305	Stenotrophomonas acidaminiphila AMX 19	32.5	3592
+GCA_001318345	Bacteroides cellulosilyticus CRE21	37.0	5420
+GCA_001399775	Thermus aquaticus YT-1	70.0	2496
+GCA_001411805	Burkholderia plantarii ATCC 43733	33.5	6427
+GCA_001412615	Pyrodictium delaneyi Su06	91.0	2032
+GCA_001421015	Paenibacillus bovis BD3526	32.5	4525
+GCA_001431725	Halomonas huangheensis BJGMM-B45 	30.0	3942
+GCA_001442535	Lysobacter antibioticus UASM 3C	29.0	5151
+GCA_001442785	Lysobacter capsici YC5194 	28.0	5642
+GCA_001442805	Lysobacter gummosus UASM 402	20.0	5278
+GCA_001443605	Salinivirga cyanobacteriivorans L21-Spi-D4	35.0	3818
+GCA_001444405	Pseudoalteromonas phenolica O-BC30 	31.0	4123
+GCA_001444425	Pseudohongiella spirulinae  Ma-20	30.0	2961
+GCA_001445575	Arthrobacter alpinus S6-3 	22.5	3495
+GCA_001456065	Clostridium butyricum ATCC 19398	33.5	3841
+GCA_001465295	Pseudoalteromonas translucida KMM 520	25.0	3782
+GCA_001466725	Lacimicrobium alkaliphilum X13M-12	27.5	3712
+GCA_001477655	Methanobrevibacter millerae ZA-10	39.0	2261
+GCA_001481685	Ignicoccus islandicus Kol8	90.0	1510
+GCA_001482385	Pseudoalteromonas rubra Atcc 29570	30.0	4675
+GCA_001483385	Tenacibaculum dicentrarchi 13028	23.5	2377
+GCA_001484065	Pannonibacter phragmitetus C6/19 	25.0	4941
+GCA_001488575	Halobacterium hubeiense JI20-1 	45.0	3297
+GCA_001499615	Acetobacter senegalensis CWBI-B418	35.0	3588
+GCA_001507645	Hymenobacter sedentarius DG5B	25.0	3803
+GCA_001507665	Deinococcus actinosclerus BM2	25.0	3007
+GCA_001509405	Aeromicrobium erythreum NRRL B-3381	35.0	3100
+GCA_001535545	Thermus parvatiensis RL	70.0	1547
+GCA_001542775	Microterricola viridarii KV-677	22.5	3075
+GCA_001543325	Lutibacter profundi LP1	23.0	2497
+GCA_001544015	Limnochorda pilosa HC45	47.5	3585
+GCA_001545095	Erysipelothrix larvae LV19	37.0	2247
+GCA_001547735	Thermosulfidibacter takaii ABI70S6	70.0	1738
+GCA_001548015	Methylobacterium aquaticum GR16 	28.0	7251
+GCA_001548275	Caldimicrobium thiodismutans TF1	75.0	1761
+GCA_001553625	Desulfomicrobium orale NY678	37.0	2429
+GCA_001559115	Staphylococcus simulans MK148	32.5	2347
+GCA_001563225	Pseudodesulfovibrio indicus J2	32.5	3409
+GCA_001563245	Methanobrevibacter olleyae KM1H5-1P	38.0	1825
+GCA_001564455	Faecalibaculum rodentium ALO17	37.0	2789
+GCA_001577775	Pyrococcus kukulkanii NCB100	105.0	1986
+GCA_001579945	Steroidobacter denitrificans FS	29.0	2941
+GCA_001584145	Collimonas fungivorans Ter6	25.0	5150
+GCA_001586255	Zhongshania aliphaticivorans SM-2	27.5	3611
+GCA_001590605	Pedobacter cryoconitis A37	15.0	4892
+GCA_001592435	Thermococcus peptonophilus OG-1	87.5	1936
+GCA_001596075	Klebsiella quasipneumoniae 01A030 	37.0	5127
+GCA_001606025	Psychrobacter alimentarius JG-100	30.0	2629
+GCA_001610955	Geobacillus thermoleovorans ATCC 43513	60.0	3246
+GCA_001612705	Pseudomonas yamanorum 8H1	28.0	6104
+GCA_001617605	Rummeliibacillus stabekisii KSC-SF6g 	30.0	3190
+GCA_001618865	Luteitalea pratensis HEG_−6_39	25.0	6134
+GCA_001620265	Defluviimonas alba cai42	30.0	5048
+GCA_001628715	Acetobacter oryzifermentans SLV-7	30.0	2760
+GCA_001628815	Geobacter anodireducens SD-1	32.5	2758
+GCA_001629705	Fictibacillus phosphorivorans Ca7	29.0	4080
+GCA_001632775	Dokdonella koreensis DS-123	30.0	3775
+GCA_001634285	Anoxybacillus amylolyticus MR3C	61.0	3183
+GCA_001636295	Isoptericola dokdonensis DS-3	30.0	3355
+GCA_001641285	Dyella thiooxydans ATSB10	30.0	3840
+GCA_001643015	Corynebacterium crudilactis JZ16	28.0	2773
+GCA_001644605	Paenibacillus swuensis DY6	30.0	4068
+GCA_001644645	Flavisolibacter tropicus LCS9	25.0	4583
+GCA_001647085	Thermococcus piezophilus CDGS	75.0	1838
+GCA_001648175	Halotalea alkalilenta  AW-7	34.5	3690
+GCA_001651805	Marinobacterium aestuarii ST58-10	22.5	4347
+GCA_001653335	Nocardioides dokdonensis FR1436	25.0	4032
+GCA_001653755	Dokdonia donghaensis DSW-1	30.0	2842
+GCA_001654455	Niabella ginsenosidivorans BS26	27.5	4572
+GCA_001658025	Kosakonia oryzae Ola 51 	32.5	4718
+GCA_001660485	Agromyces aureus AR33	28.0	3649
+GCA_001661075	Pseudomonas silesiensis A3	22.5	5796
+GCA_001677435	Woeseia oceani XK5	30.0	3522
+GCA_001678905	Dermabacter vaginalis AD1-86	37.0	2129
+GCA_001679725	Cryobacterium arcticum SK1	20.0	3909
+GCA_001682385	Azoarcus olearius DQS-4	37.5	4048
+GCA_001685435	Salimicrobium jeotgali MJ3	30.0	2641
+GCA_001685465	Vibrio scophthalmi A089	26.0	4341
+GCA_001687545	Altererythrobacter namhicola KYW48	30.0	2466
+GCA_001687565	Planococcus antarcticus CMS26or	20.0	3426
+GCA_001687585	Planococcus halocryophilus Or1	25.0	3143
+GCA_001687605	Planococcus plakortidis AS/ASP6 	30.0	2989
+GCA_001687665	Planococcus donghaensis JH1	27.5	3033
+GCA_001697185	Wenyingzhuangia fucanilytica CZ1127	25.0	2708
+GCA_001697225	Immundisolibacter cernigliae TR3.2	29.0	2885
+GCA_001698205	Altererythrobacter dongtanensis JM27	33.5	2842
+GCA_001701025	Lentzea guizhouensis DHS C013	26.5	8856
+GCA_001702135	Lactobacillus lindneri KPA	23.5	1307
+GCA_001704115	Acinetobacter larvae  BRTC-1	32.5	3089
+GCA_001708405	Kangiella sediminilitoris Mw22	33.5	2283
+GCA_001717955	Sphingomonas panacis DCY99 	27.5	4670
+GCA_001721645	Pedobacter steynii WB 2.3-45 	26.0	5317
+GCA_001721685	Bacillus beveridgei MLTeJB	37.0	3247
+GCA_001746835	Lacunisphaera limnophila IG16b	32.0	3463
+GCA_001750105	Microbulbifer aggregans CCB-MM1	30.0	3236
+GCA_001750165	Pseudoalteromonas luteoviolacea CH130	25.0	4862
+GCA_001750685	Geosporobacter ferrireducens IRF9	40.0	5185
+GCA_001753225	Delftia tsuruhatensis T7	35.0	6240
+GCA_001753245	Acidihalobacter prosperus DSM5130	37.0	3181
+GCA_001761365	Polaribacter vadi LPB0003	25.0	3171
+GCA_001761385	Hydrogenophaga crassostreae LPB0072	25.0	4388
+GCA_001761465	Flavobacterium gilvum EM1308	28.0	3412
+GCA_001854125	Marinobacter salinus Hb8	37.0	3637
+GCA_001854185	Clostridium formicaceticum ATCC 27076	37.0	3965
+GCA_001857945	Paenibacillus crassostreae LPB0068	25.0	4135
+GCA_001857965	Flavobacterium commune PK15	30.0	3052
+GCA_001870205	Vagococcus teuberi CG-21	37.0	1890
+GCA_001878675	Virgibacillus halodenitrificans ATCC 49067	38.0	3650
+GCA_001885235	Francisella hispaniensis  FhSp1	37.0	1655
+GCA_001886615	Halomonas aestuarii Hb3	30.0	3089
+GCA_001886695	Erythrobacter gangjinensis K7-2	30.0	2627
+GCA_001886815	Caldithrix abyssi LF13 	60.0	4199
+GCA_001887245	Neomicrococcus aestuarii DY66 	30.0	2240
+GCA_001888165	Pelobacter acetylenicus WoAcy 1	31.0	2726
+GCA_001888185	Phaeobacter porticola P97	24.0	3943
+GCA_001889005	Gramella salexigens LPB0144	30.0	2551
+GCA_001889045	Tenacibaculum todarodis LPB0136	25.0	2610
+GCA_001889125	Janibacter indicus 0704P10-1	29.0	3110
+GCA_001889405	Methanohalophilus halophilus Z-7982	31.0	1929
+GCA_001895885	Bacillus safensis FO-36b	33.5	3837
+GCA_001931675	Pandoraea thiooxydans ATSB16	30.0	4352
+GCA_001936175	Methylobacterium phyllosphaerae CBMB27	28.0	5727
+GCA_001940525	Thioclava nitratireducens 25B10_4	28.0	3905
+GCA_001941425	Corynebacterium ammoniagenes ATCC 6871	30.0	2308
+GCA_001951155	Gramella flava LT2011	30.0	3615
+GCA_001953175	Dehalogenimonas formicexedens NSZ-14	32.0	2130
+GCA_001953195	Acinetobacter soli B1	30.0	3250
+GCA_001955715	Rhodoferax saidenbachensis ED16	20.0	3879
+GCA_001956985	Paludisphaera borealis PX4	20.0	5670
+GCA_001969385	Salipiger profundus JLT2016	25.0	5181
+GCA_001971705	Haloterrigena daqingensis JX313	35.0	3584
+GCA_001971745	Lacinutrix venerupis Cmf 20.8	25.0	2751
+GCA_001975025	Streptomyces alfalfae XY25	37.0	6959
+GCA_001975665	Polaribacter reichenbachii  6Alg 8	27.0	3385
+GCA_001975705	Pelagibaca abyssi JLT2014	25.0	5071
+GCA_001983935	Fuerstia marisgermanicae NH11	28.0	6573
+GCA_001983995	Halioglobus japonicus S1-36	22.5	3539
+GCA_001988955	Spirosoma montaniterrae  DY10	30.0	4768
+GCA_001997295	Tessaracoccus flavus RP1	28.0	2746
+GCA_001997345	Tessaracoccus aquimaris NSG39	30.0	3221
+GCA_001998765	Anaerostipes hadrus Anaerostipes hadrus	37.0	2817
+GCA_001999225	Pseudoalteromonas aliena SW19 	23.5	3794
+GCA_002005145	Desulfotomaculum ferrireducens GSS09	50.0	2942
+GCA_002005165	Novibacillus thermophilus SG-1 	50.0	3185
+GCA_002005305	Shewanella psychrophila WP2	12.5	5485
+GCA_002005405	Jeotgalibaca dankookensis EX-07	28.0	1972
+GCA_002009235	Planococcus faecalis AJ003	25.0	3265
+GCA_002043005	Martelella mediterranea MACL11	28.0	5116
+GCA_002056725	Comamonas kerstersii LMG 3475	37.5	3095
+GCA_002072815	Alcanivorax xenomutans JC109	30.0	4097
+GCA_002075795	Shewanella japonica KMM 3299	22.5	4028
+GCA_002076895	Colwellia beringensis NB097-1	11.5	3740
+GCA_002076935	Acinetobacter lactucae NRRL B-41902	30.0	3526
+GCA_002078355	Ferroplasma acidiphilum Y	35.0	1755
+GCA_002096055	Cnuibacter physcomitrellae XA	29.0	3957
+GCA_002097535	Halobacillus mangrovi MS10	34.0	3888
+GCA_002101395	Pantoea alhagi LTYR-11Z	37.0	3846
+GCA_002116695	Acidianus manzaensis NA-1	80.0	2601
+GCA_002116905	Rhizobacter gummiphilus NS-21	22.5	5616
+GCA_002117105	Oceanicoccus sagamiensis PZ-5	17.5	3821
+GCA_002117405	Methylocystis bryophila H2s	27.5	4223
+GCA_002139935	Campylobacter lanienae LMG21527	37.0	1556
+GCA_002156705	Natronolimnobius aegyptiacus JW/NM-HA 15	52.0	3585
+GCA_002157145	Acidovorax carolinensis NA3	31.25	3373
+GCA_002157205	Kushneria marisflavi SW32	27.5	3146
+GCA_002158865	Comamonas serinivorans SP-35	30.0	3642
+GCA_002158905	Yoonia vestfoldensis LMG 22003	25.0	3876
+GCA_002162375	Oleiphilus messinensis  ME102	27.5	5478
+GCA_002192415	Paenibacillus donghaensis JH8	22.5	7206
+GCA_002201795	Alkalitalea saponilacus SC/BZ-SP2	36.0	3520
+GCA_002208135	Pseudoalteromonas piscicida MB-1	30.0	4196
+GCA_002209385	Methylovulum psychrotolerans Sph1	22.5	4237
+GCA_002209445	Capnocytophaga endodontalis ChDC OS43	35.0	2935
+GCA_002211765	Idiomarina piscisalsi TPS4-2	33.5	2291
+GCA_002211785	Francisella halioticida Shimane-1 	20.0	2044
+GCA_002214385	Thermococcus gorgonarius W-12	84.0	1753
+GCA_002214465	Thermococcus barossii SHCK-94	82.5	1965
+GCA_002214485	Thermococcus pacificus P-4	84.0	1839
+GCA_002214505	Thermococcus siculi RG-20	85.0	2066
+GCA_002214545	Thermococcus thioreducens OGL-20P	84.0	2192
+GCA_002214565	Thermococcus radiotolerans EJ2	88.0	1954
+GCA_002214585	Thermococcus profundus DT5432	80.0	2045
+GCA_002214645	Diaphorobacter polyhydroxybutyrativorans SL-205 	28.0	3525
+GCA_002215075	Brevibacillus formosus F12	30.0	5562
+GCA_002215215	Granulosicoccus antarcticus IMCC3135	20.0	6682
+GCA_002216775	Virgibacillus phasianinus LM2416 	30.0	3721
+GCA_002216855	Paraphotobacterium marinum NSCS20N07D	30.0	2266
+GCA_002217795	Aquitalea magnusonii TRO-001DR8	35.0	4384
+GCA_002221505	Pseudoalteromonas nigrifaciens ATCC 19375	30.0	3964
+GCA_002221525	Pseudoalteromonas espejiana 261	30.0	4043
+GCA_002222635	Sulfitobacter pseudonitzschiae H3	28.0	4861
+GCA_002224365	Virgibacillus necropolis LMG 19488	30.0	3896
+GCA_002234495	Arenibacter algicola TG-409	30.0	4877
+GCA_002234535	Actinoalloteichus hoggarensis AH97	30.0	5452
+GCA_002237555	Antarctobacter heliothermus EL-219	21.0	4945
+GCA_002237615	Erythrobacter flavus SW-46	33.5	2949
+GCA_002240355	Prauserella marina CCTCC AA 208056	32.5	6297
+GCA_002240415	Paenibacillus kribbensis AM49	33.5	4768
+GCA_002243495	Bacillus atrophaeus NRRL NRS-213 	29.0	3947
+GCA_002243515	Tumebacillus algifaecis THMBR28	30.0	3722
+GCA_002243665	Geobacillus thermocatenulatus DSM 730	70.0	3336
+GCA_002263515	Actinopolyspora erythraea  YIM 90600	37.0	4323
+GCA_002269385	Maribacter cobaltidurans B1	30.0	3992
+GCA_002271215	Lelliottia jeotgali PFL01 	30.0	4254
+GCA_002276165	Bacillus kochii WCC 4582	30.0	4351
+GCA_002277955	Thermogutta terrifontis R1	57.5	4475
+GCA_002278075	Paraburkholderia aromaticivorans BN5	27.5	7663
+GCA_002285495	Clostridium isatidis Wv6	50.5	2530
+GCA_002290085	Mesoplasma chauliocola CHPA-2	34.5	692
+GCA_002291405	Variovorax boronicumulans BAM-48	30.0	6151
+GCA_002309555	Pseudomonas mosselii CFML 90-83 	30.0	4970
+GCA_002310495	Nibricoccus aquaticus HZ-65	27.5	3716
+GCA_002310795	Pseudoalteromonas issachenkonii KMM 3549 	29.0	3748
+GCA_002310835	Pseudoalteromonas tetraodonis GFC	30.0	3762
+GCA_002310855	Pseudoalteromonas agarivorans KMM 255	24.0	4142
+GCA_002346085	Burkholderia mallei ATCC 23344	37.0	4866
+GCA_002355155	Corynebacterium suranareeae N24	33.5	3182
+GCA_002355275	Rhizorhabdus dicambivorans Ndbn-20	30.0	4993
+GCA_002355335	Variibacter gotjawalensis GJW-30	25.0	4370
+GCA_002355375	Aneurinibacillus soli CB4	32.5	3925
+GCA_002355415	Sulfurifustis variabilis skN76	43.5	3836
+GCA_002355435	Mucilaginibacter gotjawali SA3-7 	25.0	4426
+GCA_002355535	Aurantimicrobium minutum KNC	22.5	1555
+GCA_002355595	Filimonas lacunae YT21	29.0	6346
+GCA_002355735	Sulfuricaulis limicola HA5	30.0	2743
+GCA_002355995	Thermus thermophilus HB8	68.5	2520
+GCA_002356355	Thiohalobacter thiocyanaticus HRh1	32.0	3026
+GCA_002369955	Ichthyobacterium seriolicida JBKA-6	26.0	1463
+GCA_002407065	Brachybacterium ginsengisoli DCY80	25.0	3321
+GCA_002407245	Phaeobacter piscinae 4月27日	32.0	3816
+GCA_002441935	Mesoplasma lactucae 831-C4	30.0	667
+GCA_002441955	Methylomonas koyamae Fw12E-Y	30.0	4292
+GCA_002442575	Halomonas hydrothermalis Slthf2	30.0	3454
+GCA_002442935	Staphylococcus nepalensis CW1	30.0	2590
+GCA_002443115	Dermabacter jinjuensis 32	35.0	1949
+GCA_002504165	Celeribacter manganoxidans DY2-5	28.0	3467
+GCA_002549795	Halomonas beimenensis NTU-107	40.0	3779
+GCA_002557795	Chitinophaga caeni 13	30.0	4284
+GCA_002736205	Pedobacter ginsengisoli Gsoil 104	25.0	4351
+GCA_002741055	Paenibacillus ihbetae IHBB 9852	28.0	5623
+GCA_002749615	Caulobacter mirabilis FWC 38	25.0	4182
+GCA_002749675	Mesoplasma entomophilum TAC	30.0	679
+GCA_002752675	Massilia violaceinigra B2	20.0	6152
+GCA_002763695	Fusobacterium pseudoperiodonticum ChDC F213	36.0	2469
+GCA_002795805	Mariprofundus aestuarium CP-5	27.5	2410
+GCA_002795825	Mariprofundus ferrinatatus CP-8	27.5	2219
+GCA_002795845	Reinekea forsetii Hel1_31_D35	12.0	3245
+GCA_002803985	Entomoplasma luminosum PIMN‐1	32.0	867
+GCA_002804005	Entomoplasma somnilux PYAN‐1	30.0	724
+GCA_002804025	Mesoplasma tabanidae BARC 857	37.0	721
+GCA_002804105	Entomoplasma melaleucae M1	23.0	788
+GCA_002804205	Entomoplasma freundtii BARC 318	30.0	700
+GCA_002804245	Mesoplasma coleopterae BARC 779	33.5	690
+GCA_002813635	Spiribacter roseus SSL50	37.0	1803
+GCA_002813695	Methanobacterium subterraneum A8p	30.0	2299
+GCA_002838765	Kangiella profundi FT102	39.5	2366
+GCA_002843565	Mesoplasma syrphidae YJS	23.0	714
+GCA_002847445	Paracoccus zhejiangensis J6	30.0	4244
+GCA_002849755	Beggiatoa leptomitoformis  D-402	28.0	3459
+GCA_002849835	Virgibacillus dokdonensis DSW-10	37.0	3850
+GCA_002850535	Bacillus siamensis PD-A10	37.0	4082
+GCA_002863865	Ketobacter alkanivorans GI5	25.0	4072
+GCA_002868735	Niveispirillum cyanobacteriorum TH16	30.0	5092
+GCA_002886045	Flavivirga eckloniae ECD14	27.5	4495
+GCA_002900365	Escherichia marmotae HT073016	37.0	4418
+GCA_002906575	Salinigranum rubrum GX10	37.0	4432
+GCA_002950575	Pontimonas salivibrio CL-TW6	30.0	1682
+GCA_002953395	Vibrio diabolicus HE800	37.5	4812
+GCA_002993285	Gordonia iterans  IFM 10348	30.0	3398
+GCA_002998435	Bacteroides zoogleoformans ATCC 33285	33.5	2550
+GCA_003008535	Ottowia oryzae KADR8-3	29.0	3365
+GCA_003008595	Simplicispira suum SC1-8	29.0	3626
+GCA_003015185	Ahniella affigens D13	30.0	4650
+GCA_003028855	Massilia armeniaca ZMN-3	30.0	5093
+GCA_003054495	Carboxydocella thermautotrophica 41	58.0	2713
+GCA_003054555	Streptomyces lunaelactis MM109	23.0	7056
+GCA_003057965	Thermodesulfobium acidiphilum  3127-1	55.0	1739
+GCA_003076455	Flavobacterium faecale WV33	16.0	3647
+GCA_003076475	Flavobacterium kingsejongi WV39	25.0	3629
+GCA_003096075	Dietzia lutea YIM 80766	28.0	3280
+GCA_003100395	Aquabacterium olei NHI-1	28.0	3610
+GCA_003111685	Yangia pacifica DX5-10	37.0	4626
+GCA_003122365	Streptomyces spongiicola HNM0071	28.0	5598
+GCA_003149515	Hymenobacter nivis P3	15.0	4202
+GCA_003173015	Deinococcus irradiatisoli 17bor-2	29.0	2867
+GCA_003201675	Metallosphaera hakonensis HO1-1	70.0	2340
+GCA_003201765	Acidianus sulfidivorans JP7	74.0	2218
+GCA_003201835	Acidianus brierleyi DSM 3191	70.0	2827
+GCA_003233695	Lysobacter maris KMU-14	30.0	3108
+GCA_003258315	Bradymonas sediminis FA350 	33.0	3645
+GCA_003258705	Arcticibacterium luteifluviistationis SM1504	20.0	4281
+GCA_003260975	Echinicola strongylocentroti MEBiC08714	25.0	4647
+GCA_003286435	Mucilaginibacter gossypii Gh-67	28.0	6248
+GCA_003288095	Rhodococcus biphenylivorans TG9	30.0	4318
+GCA_003312875	Amycolatopsis albispora WP1	32.5	8019
+GCA_003315775	Megasphaera hexanoica MH	37.0	2598
+GCA_003325455	Acidipropionibacterium virtanenii JS278	30.0	3027
+GCA_003339775	Spiroplasma phoeniceum P40	30.0	2299
+GCA_003344925	Flavobacterium arcticum SM1502	25.0	2577
+GCA_003352185	Pseudomonas kribbensis Feb-46	30.0	5553
+GCA_003355475	Brachybacterium saurashtrense JG 06	30.0	3121
+GCA_003368325	Paraburkholderia caffeinilytica CF1	25.0	5386
+GCA_003403095	Thalassospira indica PB8B	28.0	4186
+GCA_003410315	Olleya aquimaris L-4	37.0	3019
+GCA_003410415	Bacillus butanolivorans K9	25.0	4956
+GCA_003431825	Blastomonas fulva T2	30.0	3702
+GCA_003433515	Maritalea myrionectae CL-SK30	32.5	3615
+GCA_003515105	Pseudoalteromonas donghaensis HJ51	27.5	3974
+GCA_003522965	Lactobacillus bombi BTLCH M1/2	37.0	1630
+GCA_003544855	Arcobacter marinus CL-S1	33.5	2708
+GCA_003544875	Vibrio alfacsensis CAIM 1831	33.5	3830
+GCA_003568825	Pseudoalteromonas tunicata DS	25.0	4061
+GCA_003584645	Methylocaldum marinum S8	36.0	5593
+GCA_003585765	Pontibacter actiniarum KMM 6156	26.5	4171
+GCA_003612795	Halomonas alkaliphila 18bAG	37.0	3488
+GCA_003612955	Bacillus mobilis 0711P9-1	30.0	5277
+GCA_003627815	Streptomyces hundungensis MBRL 251	28.0	7319
+GCA_003628755	Christensenella minuta YIT 12065	38.5	2736
+GCA_003687485	Euzebyella marina CY01	30.0	3923
+GCA_003722335	Caulobacter flavus RHGG3	29.0	4928
+GCA_003795125	Tetragenococcus osmophilus  T1	30.0	2073
+GCA_003795145	Tetragenococcus koreensis JS	30.0	2384
+GCA_003855495	Methylocystis rosea SV97	27.0	3830
+GCA_003856835	Haloplanus aerogenes TBN37	38.5	3415
+GCA_003931855	Paenibacillus lentus CMG1240	38.0	4363
+GCA_003945325	Nocardioides baekrokdamisoli B2-12	25.0	2896
+GCA_003945345	Paenibacillus baekrokdamisoli Back-11	25.0	6340
+GCA_003952265	Flaviflexus salsibiostraticola EBR4-1-2	30.0	2282
+GCA_003955715	Streptomyces aquilus GGCR-6	30.0	8998
+GCA_003966655	Acidithiobacillus ferridurans JCM 18981	29.0	2973
+GCA_003966955	Parolsenella catena 2CBEGH3	37.0	1573
+GCA_003966975	Pelolinea submarina MO-CFX1	27.5	3005
+GCA_003967175	Sulfodiicoccus acidiphilus HS-1	67.5	2379
+GCA_003970735	Silicimonas algicola KC90B	25.0	4109
+GCA_003991135	Anoxybacter fermentans DY22613	61.0	2991
+GCA_003991565	Butyricimonas faecalis H184	37.0	4088
+GCA_003991855	Microbacterium oxydans CIP 66.12	30.0	3705
+GCA_003991875	Microbacterium lemovicicum ViU22	30.0	3238
+GCA_003999255	Caldicellulosiruptor changbaiensis CBS-Z	75.0	2486
+GCA_003999735	Bacillus mesonae FJAT-13985	30.0	5292
+GCA_004000605	Glycocaulis alkaliphilus 6B-8	33.5	2846
+GCA_004028275	Hydrogenovibrio thermophilus I78	37.5	2318
+GCA_004087915	Geovibrio thiophilus AAFu3	38.5	2636
+GCA_004101865	Halobacillus litoralis SL-4	35.0	4116
+GCA_004114975	Bradyrhizobium guangdongense CCBAU 51649	28.0	7564
+GCA_004116955	Bacillus vallismortis DV1-F-3	29.0	4139
+GCA_004116995	Bacillus thermocopriae SgZ-7 	50.0	2594
+GCA_004117095	Paenibacillus chitinolyticus EAG-3	31.0	5573
+GCA_004126515	Halorubrum ezzemoulense 5.1	38.5	3395
+GCA_004135935	Methylovirgula ligni BW863	22.0	3064
+GCA_004208415	Ktedonosporobacter rubrisoli SCAWS-G2	31.5	9271
+GCA_004214795	Arcobacter pacificus SW028	37.0	2483
+GCA_004295345	Shewanella maritima D4-2	30.5	3685
+GCA_004295565	Halomonas olivaria C17	35.0	7353
+GCA_004295585	Cohnella abietis HS21	25.0	6145
+GCA_004322755	Massilia albidiflava 45	29.0	5937
+GCA_004322855	Egibacter rhizosphaerae EGI 80759	32.5	4004
+GCA_004328865	Pseudoalteromonas carrageenovora ATCC 43555	30.0	3861
+GCA_004331955	Roseitalea porphyridii MA7-20	33.5	3316
+GCA_004367585	Paenisporosarcina antarctica N-05(	17.5	3508
+GCA_004421005	Massilia plicata 76	29.0	4822
+GCA_004564075	Microbacterium sediminis YLB-01	28.0	2661
+GCA_004564355	Microbacterium wangchenii dk512	30.0	3558
+GCA_004777465	Nocardioides daphniae  D287	28.0	2815
+GCA_004797125	Flavobacterium sangjuense GS03	25.0	2594
+GCA_004799645	Natronorubrum bangense A33	45.0	4037
+GCA_004799665	Halapricum salinum CBA1105	37.0	3256
+GCA_004799685	Halobellus limi TBN53	45.0	3452
+GCA_004802635	Methylocystis heyeri H2	25.0	4072
+GCA_004851605	Hydrocarboniclastica marina Soil36-7	30.0	3619
+GCA_005144885	Phreatobacter stygius YC6-17	30.0	6711
+GCA_005160065	Geobacillus kaustophilus ATCC 8005	62.5	3328
+GCA_005166025	Fabibacter pacificus DY53	35.0	3851
+GCA_005221365	Rhizobium pusense NRCPB10	29.0	4517
+GCA_005280275	Salinivibrio kushneri AL184	37.0	2920
+GCA_005280315	Massilia umbonata LP01	29.0	5971
+GCA_005377625	Desulfoglaeba alkanexedens ALDC	34.0	2813
+GCA_005576615	Natrinema versiforme XF10	41.5	4263
+GCA_005848985	Bacillus paranthracis Mn5	30.0	5070
+GCA_005849435	Bacillus altitudinis Bi.FFUP1	33.5	3773
+GCA_005887635	Paraoceanicella profunda D4M1	37.0	4612
+GCA_006094295	Bacillus cereus ATCC 14579	37.0	5240
+GCA_006094375	Staphylococcus epidermidis Fussel	33.5	2257
+GCA_006159205	Antarcticibacterium flavum JB01H24	27.5	3532
+GCA_006363875	Sphingobium fuliginis TKP	37.0	4587
+GCA_006385595	Luteibacter pinisoli MAH-14	29.0	4024
+GCA_006457285	Bacillus tropicus N24	30.0	5919
+GCA_006542275	Saccharibacillus brassicae ATSA2	25.0	4483
+GCA_006546965	Bacteroides xylanisolvens XB1A 	38.0	5015
+GCA_006711645	Raoultella electrica  1GB	37.0	5322
+GCA_006740705	Salicibibacter halophilus NKC3-5	35.0	3397
+GCA_006740765	Leisingera aquaemixtae SSK6-1	30.0	4025
+GCA_006742345	Bacteroides uniformis ATCC 8492	36.0	4033
+GCA_007475525	Methylacidiphilum kamchatkense Kam1	55.0	2101
+GCA_007641255	Sporomusa termitida JSN-2	30.0	4667
+GCA_007752345	Planctopirus ephydatiae spb1	30.0	3984
+GCA_007954425	Novosphingobium ginsenosidimutans FW-6	31.0	2941
+GCA_007954585	Pistricoccus aurantiacus SS9	33.0	3366
+GCA_007970185	Pseudobacter ginsenosidimutans Gsoil 221	30.0	5893
+GCA_007970805	Flavisolibacter ginsenosidimutans Gsoil 636	27.5	4206
+GCA_007971225	Panacibacter ginsenosidivorans Gsoil 1550	30.0	4520
+GCA_007971385	Arachidicoccus ginsenosidivorans Gsoil 809	30.0	4037
+GCA_007971525	Mucilaginibacter ginsenosidivorax KHI28	33.5	6203
+GCA_008000755	Youhaiella tibetensis fig4	37.0	4195
+GCA_008000815	Terriglobus albidus Ac_26_B10	33.0	4957
+GCA_008033235	Anseongella ginsenosidimutans Gsoil 524	30.0	3405
+GCA_008065135	Roseimaritima ulvae UC8	30.0	5764
+GCA_008087625	Aquisphaera giovannonii OJF2	32.5	7736
+GCA_008087665	Mariniblastus fucicola FC18	25.0	5074
+GCA_008119665	Pigmentiphaga aceris SAP-32	30.0	5129
+GCA_008274805	Oryzomicrobium terrae TPP412	25.0	3112
+GCA_008329645	Mycobacterium grossiae PB739	37.0	5178
+GCA_008329925	Sphaerotilus natans ATCC 13338	25.0	3773
+GCA_008329945	Spirochaeta perfilievii P	29.0	3253
+GCA_008365255	Bacillus paralicheniformis KJ-16 	37.0	4369
+GCA_008369785	Francisella marina E95-16	30.0	1896
+GCA_008370165	Serratia symbiotica CWBI-2.3	25.0	2054
+GCA_008705175	Clostridium diolis SH1	37.0	4893
+GCA_008728195	Roseovarius indicus B108	25.0	5858
+GCA_008728835	Hypericibacter adhaerens R5959	34.5	5185
+GCA_008728855	Hypericibacter terrae R5913	30.0	5297
+GCA_008838325	Tepidiforma bonchosmolovskayae 3753O	52.0	2589
+GCA_009296025	Streptomyces tsukubensis SD504	28.0	6443
+GCA_009301415	Paracoccus kondratievae GB	40.0	3930
+GCA_009392895	Natronorubrum aibiense 44015	45.0	3950
+GCA_009428965	Lactobacillus pontis LTH 2587	30.0	1500
+GCA_009429125	Luteimicrobium xylanilyticum W-15	27.5	3651
+GCA_009497895	Pseudomonas pelagia CL-AP6	25.0	3997
+GCA_009650135	Litoricola lipolytica IMCC1097	25.0	2280
+GCA_009664085	Thermochromatium tepidum MC	49.0	2485
+GCA_009671205	Micromonospora terminaliae TMS7	32.0	6033
+GCA_009688945	Desulfosarcina alkanivorans PL12	32.0	6450
+GCA_009688965	Desulfosarcina widdelii PP31	28.0	6672
+GCA_009729015	Acidianus ambivalens Lei 10	80.0	2334
+GCA_009729035	Stygiolobus azoricus FC6	80.0	2002
+GCA_009729055	Sulfurisphaera ohwakuensis TA-1	84.0	2727
+GCA_009740265	Proteus cibarius JS9	30.0	3781
+GCA_009755585	Lysobacter soli DCY21	30.0	3575
+GCA_009762275	Haloplanus rallus MBLA0036	37.0	3420
+GCA_009901525	Kordia antarctica IMCC3317	20.0	4645
+GCA_009906955	Paraglaciecola mesophila KMM 241	26.5	4231
+GCA_009914335	Proteus columbae 08MAS2615	37.0	3574
+GCA_009930795	Marisediminicola antarctica ZS314	20.5	2931
+GCA_009931115	Microbulbifer hydrolyticus IRE-31	37.0	3381
+GCA_009936215	Athalassotoga saccharophila NAS-01	55.0	1961
+GCA_900012635	Thermococcus chitonophagus GC74	85.0	2102
+GCA_900070325	Herbinix luporum SD1D	55.0	2362
+GCA_900079115	Saccharolobus solfataricus NBRC 15331	85.0	3326
+GCA_900090055	Cuniculiplasma divulgatum S-5	38.5	1811
+GCA_900093775	Bacillus glycinifermentans GO-13	33.5	4738
+GCA_900095135	Proteiniphilum saccharofermentans M3/6	37.5	3450
+GCA_900095295	Methanobacterium congolense CT	39.5	2345
+GCA_900095795	Petrimonas mucosa ING2-E5A	45.0	3000
+GCA_900095815	Methanothermobacter wolfeii ATCC43096	55.0	1792
+GCA_900097105	Akkermansia glycaniphila Pyt	27.5	2501
+GCA_900119795	Tenacibaculum maritimum R2	30.0	2838
+GCA_900187185	Chryseobacterium taklimakanense X-65	30.0	2581
+GCA_900198195	Tenacibaculum jejuense CNURIC013	27.5	3904
+GCA_900217235	Pseudodesulfovibrio profundus 500-1	25.0	4028
+GCA_900231165	Hartmannibacter diazotrophicus E19	28.0	4981
+GCA_900233005	Vibrio tapetis B1090	18.0	5499
+GCA_900289045	Micropruina glycogenica JCM 10248	30.0	3904
+GCA_900475025	Streptococcus ferus 8S1	39.5	1802
+GCA_900475945	Pseudomonas mucidolens ATCC 4685	24.0	5255
+GCA_900476435	Shewanella benthica W 145	5.0	4439
+GCA_900478165	Bacillus lentus ATCC 10840	30.0	4060
+GCA_900478415	Staphylococcus auricularis WK 811M	35.0	2109
+GCA_900635785	Actinobacillus lignieresii ATCC 49236	37.0	2325
+GCA_900636385	Staphylococcus warneri AW25	35.0	2304
+GCA_900637895	Chryseobacterium antarcticum AT1013	18.9	2803
+GCA_900638245	Chryseobacterium jeonii AT1047	21.5	2981
+GCA_900660745	Acholeplasma axanthum S-743	37.0	1690
+GCA_900660755	Acholeplasma hippikon C1	36.0	1344
+GCA_900682675	Pseudomonas marincola KMM 3042	26.5	4531
+GCA_901472535	Sphingobacterium daejeonense TR6-04	30.0	5490
+GCA_901482605	Hathewaya histolytica ATCC 19401	37.0	2561
+GCA_901538265	Gemmata massiliana CSUR P189	30.0	8532
+GCA_902459475	Aquicella lusitana SGT-39	37.0	2393
+GCA_902502825	Rhizobium flavum YW14	30.0	4543
