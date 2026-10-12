@@ -1,19 +1,20 @@
 # Scripts and data files for "Encoded lysines at the beginning of coding sequences enhance translation via their A-enriched codons and side chain"
 
-Scripts are under the CeCILL 2.1 licence which is a free software licence, explicitly compatible with the GNU GPL.
+Scripts are under the CeCILL 2.1 licence which is a free software licence, explicitly compatible with the GNU GPL v2.
 
-**Contacts**
+**Authors**
 
 - Claire Toffano-Nioche (<claire.toffano-nioche@u-psud.fr>)
-- Daniel Gautheret (<daniel.gautheret@u-psud.fr>)
 - Jean Lehmann (<rnalehmann03@gmail.com>)
+- Daniel Gautheret (<daniel.gautheret@u-psud.fr>)
+
 
 # Preparing environment and data
 
 ## Configuring computing environement
 
 ### Script and configuration files
-Clone (`git clone git@github.com:i2bc/n_terminal_lysine`) or donwload this archive. 
+Clone (`git clone git@github.com:i2bc/n_terminal_lysine`) or donwload the archive. 
 
 In a `n_terminal_lysine` repository, you may have:
 - KRNHYIaa_GCA_000146045.2.pdf : the graph of some aa frequencies by position for Saccharomyces cerevisiae S288C R64 strain
@@ -53,7 +54,7 @@ GCA_000146045.2_R64SacCer                       # Saccharomyces cerevisiae S288C
 GCF_000001405.40_GRCh38.p14                     # Homo sapiens GRCh38.p14             # human
 GCF_000001635.27_GRCm39                         # Mus musculus GRCm39                 # house mouse
 GCF_000002035.6_GRCz11                          # Danio rerio GRCz11                  # zebrafish
-GCF_017654675.1_J_2021                          # Xenopus laevis                      # African frog
+GCF_017654675.1_J_2021                          # Xenopus laevis                      # african frog
 ```
 
 # Runing 
