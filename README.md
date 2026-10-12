@@ -40,7 +40,7 @@ We download the [200617_TEMPURA.csv](http://togodb.org/release/200617_TEMPURA.cs
 
 ### Species selection
 
-**bacteria** and **archaea** species were selected when they have both a Topt_average and an Assembly_or_asseccion values in the [200617_TEMPURA.csv](http://togodb.org/release/200617_TEMPURA.csv) and a corresponding cDNA files (`*cdna_from_genomics files.fasta.gz`) to download from the ncbi ftp site.
+**bacteria** and **archaea** species were selected when they have both a Topt_average and an Assembly_or_asseccion values in the [200617_TEMPURA.csv](http://togodb.org/release/200617_TEMPURA.csv) and a corresponding cDNA files (`*cdna_from_genomics.fasta.gz`) to download from the ncbi ftp site.
 
 **eukaryota** selection: downloaded in may 2023 from an ncbi assembly query with [eukaryotes[organism] AND “reference genome"[RefSeq Category]](https://www.ncbi.nlm.nih.gov/assembly/?term=eukaryotes%5borganism%5d+AND+%E2%80%9Creference+genome%22%5bRefSeq+Category%5d) added with green alga, african frog and fission yeast. 
 Downloaded cDNA files versions in may 2023 (*_cds_from_genomic.fna.gz) are:
